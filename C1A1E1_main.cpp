@@ -12,13 +12,13 @@
 // of any functions or macros that are defined. Do not describe prototypes.
 //
 
-#include <iostream>
-
-int main() 
-{
-	int x = 7, y = 98;
-	std::cout << ++x << "\n";
-	printf("%i", x--);
-	printf("%f", y);
-	return 0;
-}
+//#include <iostream>
+//
+//int main() 
+//{
+//	int x = 7, y = 98;
+//	std::cout << ++x << "\n";
+//	printf("%i", x--);
+//	printf("%f", y);
+//	return 0;
+//}

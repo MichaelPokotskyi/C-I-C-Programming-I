@@ -10,7 +10,7 @@ Indicate the major contents of this file, such as quiz answers, state diagrams, 
 
 1.D
 2.B
-3.
+3.B
 4.D
 5.B
 6.A

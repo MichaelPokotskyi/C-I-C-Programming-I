@@ -18,7 +18,11 @@
 //
 //int main()
 //{
-//
-//
-//        return 0;
+//	char temp[3];
+//	scanf_s("\t%c", &temp[0]);
+//	scanf_s("\t%c", &temp[1]);
+//	scanf_s("\t%c", &temp[2]);
+//	printf("%c%c%c\n", temp[0], temp[1], temp[2]);
+//	printf("%o %o %o\n", temp[0], temp[1], temp[2]);
+//return 0;
 //}
