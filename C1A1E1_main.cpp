@@ -1,24 +1,16 @@
-// C I C++ Programming I.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+// Michael Pokotskyi U09662201
+// pokotskyi.m@gmail.com
+// C I C++ Programming I
+// C1 168566 Raymond L. Mitchell
+// 1/11/2023
+// C1A1E2_main.cpp
+// Win10
+// Visual C++ 2022, ISO C++ 17
+//
+// Briefly describe the relevant contents of this file, such as names and purposes
+// of any functions or macros that are defined. Do not describe prototypes.
 //
 
-//#include<stdio.h>
-//#include <iostream>
 
-//int main()
-//{
-//    printf("AAA");
-//    std::cout << "Hello World!\n";
-//
-//    return 0;
-//}
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+// code
