@@ -8,21 +8,15 @@
 // Win10
 // Visual C++ 2022, ISO C17
 //
-// Briefly describe the relevant contents of this file, such as names and purposes
-// of any functions or macros that are defined. Do not describe prototypes.
+// Assignment #1 C1A1E2 (C)
 //
 
+#include<stdio.h>
 
-
-//#include<stdio.h>
-//
-//int main()
-//{
-//	char temp[3];
-//	scanf_s("\t%c", &temp[0]);
-//	scanf_s("\t%c", &temp[1]);
-//	scanf_s("\t%c", &temp[2]);
-//	printf("%c%c%c\n", temp[0], temp[1], temp[2]);
-//	printf("%o %o %o\n", temp[0], temp[1], temp[2]);
-//return 0;
-//}
+int main()
+{
+	printf("Poorly formatted code is a red flag to employers.\n\"Good\" programmers format code 100%% correctly."
+	      "\nThe \"newline\" character is represented by \\n.\nFive backslashes: \\\\\\\\\\\nSix double quotes: \"\"\"\"\"\"\n"
+	      "Seven percent signs: %%%%%%%%%%%%%%\nNo partridge and no pear tree!");
+return 0;
+}

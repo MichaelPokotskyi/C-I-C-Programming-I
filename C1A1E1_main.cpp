@@ -8,17 +8,18 @@
 // Win10
 // Visual C++ 2022, ISO C++ 17
 //
-// Briefly describe the relevant contents of this file, such as names and purposes
-// of any functions or macros that are defined. Do not describe prototypes.
+// Assignment #1 C1A1E1 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-	int number{};
-	cin >> ("Enter number: ", number);
-	cout << number << " decimal" << " = " << ;
-	return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int number{};
+//	cout << "Enter number: ";
+//	cin >> number;
+//	cout << number << " decimal" << " = " << oct << number 
+//		<< " octal" << " = " << hex << number << " hexadecimal";
+//	return 0;
+//}
