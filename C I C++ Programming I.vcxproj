@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Desktop\UC SanDiego\C1_168566_U09662201_Requirements\Assignment 1\Additional Examples for Assignment 1.cpp" />
     <ClCompile Include="C1A1E1_main.cpp" />
     <ClCompile Include="C1A1E2_main.c" />
   </ItemGroup>
