@@ -21,9 +21,6 @@
     <ClCompile Include="C1A1E2_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\UC SanDiego\C1_168566_U09662201_Requirements\Assignment 1\Additional Examples for Assignment 1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">

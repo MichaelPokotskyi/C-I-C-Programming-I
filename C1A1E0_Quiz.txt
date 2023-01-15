@@ -6,7 +6,7 @@ C1 168566 Raymond L. Mitchell
 C1A1E0_Quiz.txt
 Win10
 
-Indicate the major contents of this file, such as quiz answers, state diagrams, etc.
+Assignment #1 quiz
 
 1.D
 2.B

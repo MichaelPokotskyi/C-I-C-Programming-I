@@ -19,7 +19,7 @@
 //	int number{};
 //	cout << "Enter number: ";
 //	cin >> number;
-//	cout << number << " decimal" << " = " << oct << number 
-//		<< " octal" << " = " << hex << number << " hexadecimal";
+//	cout << number << " decimal" << " = " << oct << number
+//		<< " octal" << " = " << hex << number << " hexadecimal\n";
 //	return 0;
 //}

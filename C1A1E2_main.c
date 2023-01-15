@@ -11,12 +11,12 @@
 // Assignment #1 C1A1E2 (C)
 //
 
-#include<stdio.h>
-
+//#include<stdio.h>
+//
 //int main(void)
 //{
 //	printf("Poorly formatted code is a red flag to employers.\n\"Good\" programmers format code 100%% correctly."
 //	      "\nThe \"newline\" character is represented by \\n.\nFive backslashes: \\\\\\\\\\\nSix double quotes: \"\"\"\"\"\"\n"
-//	      "Seven percent signs: %%%%%%%%%%%%%%\nNo partridge and no pear tree!");
+//	      "Seven percent signs: %%%%%%%%%%%%%%\nNo partridge and no pear tree!\n");
 //return 0;
 //}
