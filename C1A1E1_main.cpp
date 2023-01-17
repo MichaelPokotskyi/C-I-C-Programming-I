@@ -11,15 +11,15 @@
 // Assignment #1 C1A1E1 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int number {};
-    cout << "Enter number: ";
-    cin >> number;
-    cout << number << " decimal" << " = " << oct << number
-        << " octal" << " = " << hex << number << " hexadecimal\n";
-    return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//int main()
+//{
+//    int number {};
+//    cout << "Enter number: ";
+//    cin >> number;
+//    cout << number << " decimal" << " = " << oct << number
+//        << " octal" << " = " << hex << number << " hexadecimal\n";
+//    return 0;
+//}
