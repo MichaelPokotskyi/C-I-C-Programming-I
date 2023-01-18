@@ -132,9 +132,12 @@
   <ItemGroup>
     <ClCompile Include="C1A1E1_main.cpp" />
     <ClCompile Include="C1A1E2_main.c" />
+    <ClCompile Include="C1A2E1_main.cpp" />
+    <ClCompile Include="C1A2E2_main.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt" />
+    <Text Include="C1A2E0_Quiz.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

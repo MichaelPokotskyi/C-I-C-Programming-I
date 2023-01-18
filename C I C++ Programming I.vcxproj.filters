@@ -21,9 +21,18 @@
     <ClCompile Include="C1A1E2_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A2E1_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A2E2_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="C1A2E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
