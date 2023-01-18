@@ -11,7 +11,7 @@
 // Assignment #2 C1A2E1 (C++)
 // 
 // If user input anything other then uppercase character, this algorithm will continue work with ASCII - displaying symbol from
-// regular or extended ASCII table keeping given difference, for instance '0'->'P' where:
+// regular or extended ASCII table keeping given difference, for instance <0> -> <P> where:
 // <P>(0x50) = 0x30(<0> hex) + 0x20(given diff).
 // 
 // Since variable declared as an single char it can hold only one character and will hold first entered value. In case if whitespace will be placed
@@ -22,7 +22,7 @@ using namespace std;
 
 int main()
 {
-    char any_symbol{}, upper_symbol{};
+    char any_symbol {}, upper_symbol {};
     cout << "Enter any character: ";
     cin.get(any_symbol);
     upper_symbol = any_symbol + 0x20;
