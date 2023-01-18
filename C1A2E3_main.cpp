@@ -10,3 +10,21 @@
 //
 // Assignment #2 C1A2E3 (C++)
 // 
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int number{0}, count {0};
+    cout << "Enter number: ";
+    cin >> number;
+    for (int i = 0; i < number; i++) {
+        //count++;
+        for (int k = number; k > 0; k--) {
+            cout << "^";
+        }
+        cout << endl;
+    }
+    return 0;
+}
