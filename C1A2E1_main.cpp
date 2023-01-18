@@ -10,11 +10,12 @@
 //
 // Assignment #2 C1A2E1 (C++)
 // 
-// If user input anything other then uppercase character, this small programm algorithm will continue work with ASCII - displaying symbol from
+// If user input anything other then uppercase character, this algorithm will continue work with ASCII - displaying symbol from
 // regular or extended ASCII table keeping given difference, for instance '0'->'P' where:
-//                <P>(0x50) = 0x30(<0> hex) + 0x20(giver diff).
+// <P>(0x50) = 0x30(<0> hex) + 0x20(given diff).
+// 
 // Since variable declared as an single char it can hold only one character and will hold first entered value. In case if whitespace will be placed
-// proir any other symbol(s) entered, an '@' will be displayed because <sp>(0x20) + 0x20(giver diff between Upper and Lower) = <@>(0x40).
+// proir any other symbol(s) entered, an '@' will be displayed because <sp>(0x20) + (0x20)(given diff) = <@>(0x40).
 
 #include <iostream>
 using namespace std;
