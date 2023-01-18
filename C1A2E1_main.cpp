@@ -18,6 +18,7 @@
 // proir any other symbol(s) entered, an '@' will be displayed because <sp>(0x20) + (0x20)(given diff) = <@>(0x40).
 
 #include <iostream>
+const int diff { 0x20 };
 using namespace std;
 
 int main()
@@ -25,7 +26,7 @@ int main()
     char any_symbol {}, upper_symbol {};
     cout << "Enter any character: ";
     cin.get(any_symbol);
-    upper_symbol = any_symbol + 0x20;
+    upper_symbol = any_symbol + diff;
     cout << "The lowercase equivalent of " << "'" << any_symbol << "'" << " is " << "'" << upper_symbol << "'" << endl;
     return 0;
 }
