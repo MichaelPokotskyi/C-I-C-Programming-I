@@ -19,7 +19,7 @@ using namespace std;
 int main()
 {
     int number{}, countdown{};
-    const char LEADER_CHAR = '\'';
+    const char LEADER_CHAR = '^';
     const char DIAGONAL_CHAR = '$';
     
     cout << "Enter positive value: ";
