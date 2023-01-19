@@ -14,20 +14,25 @@
 #include <iostream>
 using namespace std;
 
+
+
 int main()
 {
     int number{}, countdown{};
-    cout << "Enter number: ";
+    const char LEADER_CHAR = '\'';
+    const char DIAGONAL_CHAR = '$';
+    
+    cout << "Enter positive value: ";
     cin >> number;
     countdown = number;
-    for (int i = 0; i < countdown; i++) {
+    for (int i = 0; i < countdown; i++) 
+    {
         for (int k = number - 1; k > 0; k--) 
         {
-            cout << "'";
+            cout << LEADER_CHAR;
         }
         number--;
-        cout << "$" << endl;
-        
+        cout << DIAGONAL_CHAR << endl;
     }
     return 0;
 }
