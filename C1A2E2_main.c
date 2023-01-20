@@ -20,7 +20,7 @@ int main(void)
     const char DIAGONAL_CHAR = '$';
 
     printf("Enter positive value: ");
-    getchar(number);
+    scanf_s("%d", &number);
     countdown = number;
     for (int i = 0; i < countdown; i++)
     {
