@@ -13,26 +13,23 @@
 
 //#include <iostream>
 //using namespace std;
-//
-//
+//const char LEADER_CHAR = '^';
+//const char DIAGONAL_CHAR = '$';
 //
 //int main()
 //{
-//    int number{}, countdown{};
-//    const char LEADER_CHAR = '^';
-//    const char DIAGONAL_CHAR = '$';
-//    
+//    int input_number {}, countdown {};
 //    cout << "Enter positive value: ";
-//    cin >> number;
-//    countdown = number;
-//    for (int i = 0; i < countdown; i++) 
+//    cin >> input_number;
+//    countdown = input_number;
+//    for (int line_ = 0; line_ < countdown; line_++)         // line control
 //    {
-//        for (int k = number - 1; k > 0; k--) 
+//        for (int sym_ = input_number - 1; sym_ > 0; sym_--) // symbol control
 //        {
 //            cout << LEADER_CHAR;
 //        }
-//        number--;
-//        cout << DIAGONAL_CHAR << endl;
+//        input_number--;
+//        cout << DIAGONAL_CHAR << "\n";
 //    }
 //    return 0;
 //}

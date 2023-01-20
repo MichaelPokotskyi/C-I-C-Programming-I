@@ -11,25 +11,24 @@
 // Assignment #2 C1A2E2 (C)
 //
 
-#include <stdio.h>
-
-int main(void)
-{
-    int number = 0, countdown = 0;
-    const char LEADER_CHAR = '^';
-    const char DIAGONAL_CHAR = '$';
-
-    printf("Enter positive value: ");
-    scanf_s("%d", &number);
-    countdown = number;
-    for (int i = 0; i < countdown; i++)
-    {
-        for (int k = number - 1; k > 0; k--)
-        {
-            printf("%c", LEADER_CHAR);
-        }
-        number--;
-        printf("%c\n", DIAGONAL_CHAR);
-    }
-    return 0;
-}
+//#include <stdio.h>
+//#define LEADER_CHAR '^'
+//#define DIAGONAL_CHAR '$'
+//
+//int main(void)
+//{
+//    int input_number, countdown;
+//    printf("Enter positive value: ");
+//    scanf_s("%d", &input_number);
+//    countdown = input_number;
+//    for (int line_ = 0; line_ < countdown; line_++)         // line comtrol
+//    {
+//        for (int sym_ = input_number - 1; sym_ > 0; sym_--) // symbol contrl
+//        {
+//            printf("%c", LEADER_CHAR);
+//        }
+//        input_number--;
+//        printf("%c\n", DIAGONAL_CHAR);
+//    }
+//    return 0;
+//}
