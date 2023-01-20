@@ -10,3 +10,26 @@
 //
 // Assignment #2 C1A2E2 (C)
 //
+
+#include <stdio.h>
+
+int main(void)
+{
+    int number = 0, countdown = 0;
+    const char LEADER_CHAR = '^';
+    const char DIAGONAL_CHAR = '$';
+
+    printf("Enter positive value: ");
+    getchar(number);
+    countdown = number;
+    for (int i = 0; i < countdown; i++)
+    {
+        for (int k = number - 1; k > 0; k--)
+        {
+            printf("%c", LEADER_CHAR);
+        }
+        number--;
+        printf("%c\n", DIAGONAL_CHAR);
+    }
+    return 0;
+}

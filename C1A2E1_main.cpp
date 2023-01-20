@@ -17,16 +17,16 @@
 // Since variable declared as an single char it can hold only one character and will hold first entered value. In case if whitespace will be placed
 // proir any other symbol(s) entered, an '@' will be displayed because <sp>(0x20) + (0x20)(given diff) = <@>(0x40).
 
-#include <iostream>
-const int diff { 0x20 };
-using namespace std;
-
-int main()
-{
-    char any_symbol {}, upper_symbol {};
-    cout << "Enter any character: ";
-    cin.get(any_symbol);
-    upper_symbol = any_symbol + diff;
-    cout << "The lowercase equivalent of " << "'" << any_symbol << "'" << " is " << "'" << upper_symbol << "'" << endl;
-    return 0;
-}
+//#include <iostream>
+//const int diff { 0x20 };
+//using namespace std;
+//
+//int main()
+//{
+//    char any_symbol {}, upper_symbol {};
+//    cout << "Enter any character: ";
+//    cin.get(any_symbol);
+//    upper_symbol = any_symbol + diff;
+//    cout << "The lowercase equivalent of " << "'" << any_symbol << "'" << " is " << "'" << upper_symbol << "'" << endl;
+//    return 0;
+//}
