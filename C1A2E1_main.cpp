@@ -9,7 +9,7 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #2 C1A2E1 (C++)
-// Char/int arithmetic conception. Uppercaase to lowercase conversion.
+// Upper to lower arithmetic.
 // 
 // If user input anything other then uppercase character, 
 // this algorithm will continue work with ASCII - displaying symbol from
