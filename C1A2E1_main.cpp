@@ -14,12 +14,12 @@
 // this algorithm will continue work with ASCII - displaying symbol from
 // regular or extended ASCII table keeping given difference, 
 // for instance <0> -> <P> where (in DEC):
-// <P>(080) = <0>(048) + <given diff>(32).
+// <P>(080) = <0>(048) + <given diff>(032).
 // 
 // Since variable declared as an single char it can hold only one character
 // and will hold first entered value. In case if whitespace will be placed
 // proir any other symbol(s) entered, an '@' will be displayed because:
-// <sp>(32) + <given diff>(0x20) = <@>(0x40).
+// <sp>(032) + <given diff>(032) = <@>(064).
 
 //#include <iostream>
 //using namespace std;
