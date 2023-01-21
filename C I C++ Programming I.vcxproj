@@ -135,10 +135,14 @@
     <ClCompile Include="C1A2E1_main.cpp" />
     <ClCompile Include="C1A2E2_main.c" />
     <ClCompile Include="C1A2E3_main.cpp" />
+    <ClCompile Include="C1A3E1_main.c" />
+    <ClCompile Include="C1A3E2_main.cpp" />
+    <ClCompile Include="C1A3E3_main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt" />
     <Text Include="C1A2E0_Quiz.txt" />
+    <Text Include="C1A3E0_Quiz.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

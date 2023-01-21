@@ -30,12 +30,24 @@
     <ClCompile Include="C1A2E3_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A3E1_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A3E2_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A3E3_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="C1A2E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="C1A3E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
