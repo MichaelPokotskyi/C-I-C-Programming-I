@@ -13,13 +13,13 @@
 // If user input anything other then uppercase character, 
 // this algorithm will continue work with ASCII - displaying symbol from
 // regular or extended ASCII table keeping given difference, 
-// for instance <0> -> <P> where: 
-// <P>(0x50) = 0x30(<0> hex) + 0x20(given diff).
+// for instance <0> -> <P> where (in DEC):
+// <P>(080) = <0>(048) + <given diff>(32).
 // 
-// Since variable declared as an single char it can hold only one character 
+// Since variable declared as an single char it can hold only one character
 // and will hold first entered value. In case if whitespace will be placed
 // proir any other symbol(s) entered, an '@' will be displayed because:
-// <sp>(0x20) + (0x20)(given diff) = <@>(0x40).
+// <sp>(32) + <given diff>(0x20) = <@>(0x40).
 
 //#include <iostream>
 //using namespace std;
