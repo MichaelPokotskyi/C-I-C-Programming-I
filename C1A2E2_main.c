@@ -9,6 +9,7 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #2 C1A2E2 (C)
+// Using macros for symbol replacement.
 //
 
 //#include <stdio.h>

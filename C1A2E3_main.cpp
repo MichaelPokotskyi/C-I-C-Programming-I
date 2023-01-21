@@ -9,6 +9,7 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #2 C1A2E3 (C++)
+// Using constatnt variables for symbol representation.
 // 
 
 //#include <iostream>
