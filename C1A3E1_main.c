@@ -9,26 +9,29 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #3 C1A3E1 (C)
+// PRINTF table formatting, for x^7 and x^8 counting.
+// 
+// 
 //
+
+
 
 #include <stdio.h>
 
 int main(void) {
-
-    int input_pow1, pow7, pow8;
-
+    int input_pow1;
     printf("Enter integer value >= 0: ");
     scanf_s("%d", &input_pow1);
-
-    printf("n         n^7         n^8 \n-------------------------\n");
-
-    for (int j = 0; j <= input_pow1; j++) {
-        printf("%d", j);
-
-        pow7 = j * j * j * j * j * j * j;
+    printf(" n^1         n^7         n^8\n"
+        "------------------------------\n");
+    for (int pow1 = 0; pow1 <= input_pow1; pow1++) {
+        int pow7, pow8;
+        printf("%4d", pow1);
+        // pow7 done by multiplication as advised
+        pow7 = pow1 * pow1 * pow1 * pow1 * pow1 * pow1 * pow1;
         printf("%12d", pow7);
-
-        pow8 = j * pow7;
+        // pow8 done by multiplication by pow7 to pow1
+        pow8 = pow1 * pow7;
         printf("%12d\n", pow8);
     }
     return 0;
