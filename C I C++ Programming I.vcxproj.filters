@@ -42,6 +42,9 @@
     <ClCompile Include="__TEST_UNIT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="__TEST_UNIT_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
