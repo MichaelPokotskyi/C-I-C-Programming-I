@@ -9,9 +9,8 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #3 C1A3E1 (C)
-// PRINTF table formatting, for x^7 and x^8 counting.
-// 
-// 
+// PRINTF table formatting for entered number to ^7 and ^8 power
+// with displaying intermediate powers.
 //
 //
 //#include <stdio.h>
