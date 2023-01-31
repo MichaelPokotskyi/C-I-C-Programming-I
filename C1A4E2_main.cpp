@@ -23,6 +23,7 @@ void PrintLines(int symbol, int symbol_qty, int line_qty);
 
 int main()
 {
+    // TODO - input section
     //for (int iter = 0; iter < 2; ++iter)
     //{
         PrintLines('U', 0, 2);
