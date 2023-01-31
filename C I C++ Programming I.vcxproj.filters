@@ -80,5 +80,8 @@
     <Text Include="C1A3E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="C1A4E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

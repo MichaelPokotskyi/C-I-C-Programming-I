@@ -156,6 +156,7 @@
     <Text Include="C1A1E0_Quiz.txt" />
     <Text Include="C1A2E0_Quiz.txt" />
     <Text Include="C1A3E0_Quiz.txt" />
+    <Text Include="C1A4E0_Quiz.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C1A4E1_ComputeMinimum.c">
