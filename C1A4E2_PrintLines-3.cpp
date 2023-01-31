@@ -24,5 +24,4 @@ void PrintLines(int symbol, int symbol_qty, int line_qty)
         }
         cout << "\n";
     }
-    cout << "\n";
 }

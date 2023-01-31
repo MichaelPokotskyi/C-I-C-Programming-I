@@ -14,13 +14,21 @@
 #include <iostream>
 using namespace std;
 
-void PrintLines(int symbol, int symbol_qty, int line_qty);
-void PrintLines(int symbol, int symbol_qty);
-void PrintLines(int symbol);
 void PrintLines();
+void PrintLines(int symbol);
+void PrintLines(int symbol, int symbol_qty);
+void PrintLines(int symbol, int symbol_qty, int line_qty);
+
+
 
 int main()
 {
-
+    //for (int iter = 0; iter < 2; ++iter)
+    //{
+        PrintLines('U', 0, 2);
+        PrintLines('P', 5);
+        PrintLines('G');
+        PrintLines();
+    //}
     return 0;
 }
