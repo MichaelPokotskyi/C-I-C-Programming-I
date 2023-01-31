@@ -16,9 +16,9 @@ using namespace std;
 
 void PrintLines(int symbol, int symbol_qty)
 {
-    for (int symbol_count = 0; symbol_count < symbol_qty; ++symbol_count)
+    for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
     {
-        cout << (char)symbol;
+        cout << symbol;
     }
     cout << "\n";
 }

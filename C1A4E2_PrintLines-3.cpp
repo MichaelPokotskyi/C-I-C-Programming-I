@@ -18,9 +18,9 @@ void PrintLines(int symbol, int symbol_qty, int line_qty)
 {
     for (int line_control = 0; line_control < line_qty; ++line_control)
     {
-        for (int symbol_count = 0; symbol_count < symbol_qty; ++symbol_count)
+        for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
         {
-            cout << (char)symbol;
+            cout << symbol;
         }
         cout << "\n";
     }

@@ -19,17 +19,19 @@ void PrintLines(int symbol);
 void PrintLines(int symbol, int symbol_qty);
 void PrintLines(int symbol, int symbol_qty, int line_qty);
 
-
-
 int main()
 {
-    // TODO - input section
-    //for (int iter = 0; iter < 2; ++iter)
-    //{
-        PrintLines('U', 0, 2);
-        PrintLines('P', 5);
-        PrintLines('G');
+    for (int iter = 0; iter < 2; ++iter)
+    {
+        char charValue;
+        int charCount, lineCount;
+        cout << "Enter 3 items CHAR_VALUE, CHAR_COUNT, LINE_COUNT \n";
+        cin >> charValue >> charCount >> lineCount;
+
+        PrintLines(charValue, charCount, lineCount);
+        PrintLines(charValue, charCount);
+        PrintLines(charValue);
         PrintLines();
-    //}
+    }
     return 0;
 }
