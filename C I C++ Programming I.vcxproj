@@ -138,6 +138,8 @@
     <ClCompile Include="C1A3E1_main.c" />
     <ClCompile Include="C1A3E2_main.cpp" />
     <ClCompile Include="C1A3E3_main.cpp" />
+    <ClCompile Include="C1A4E1_ComputeMaximum.c" />
+    <ClCompile Include="C1A4E1_main.c" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
@@ -145,6 +147,9 @@
     <Text Include="C1A1E0_Quiz.txt" />
     <Text Include="C1A2E0_Quiz.txt" />
     <Text Include="C1A3E0_Quiz.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C1A4E1_ComputeMinimum.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
