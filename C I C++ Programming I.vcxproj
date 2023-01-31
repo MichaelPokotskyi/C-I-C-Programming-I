@@ -144,6 +144,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="C1A4E1_main.c" />
+    <ClCompile Include="C1A4E2_main.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-0.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-1.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-2.cpp" />
+    <ClCompile Include="C1A4E2_PrintLines-3.cpp" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
