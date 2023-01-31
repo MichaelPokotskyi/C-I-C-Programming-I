@@ -18,19 +18,14 @@
 double ComputeMinimum(double a, double b);
 double ComputeMaximum(double a, double b);
 
-int main()
+int main(void)
 {
-    /*double first_number, second_number, min = 0;
+    double first_number, second_number;
     printf("Enter two numbers:");
     scanf_s("%lg %lg", &first_number, &second_number);
-    min = ComputeMinimum(first_number, second_number);
-    printf("%g %g %g", first_number, second_number, min);
-    //"ComputeMinimum %lg %lg returned %lg\n", */
-
-    printf("%g\n", ComputeMinimum(1.1, 2.6));
-    printf("%g\n", ComputeMaximum(1.1, 2.6));
-    return 0;
-
-
+    printf("ComputeMinimum(%lg %lg) returned %lg\n", first_number, second_number,
+        ComputeMinimum(first_number, second_number));
+    printf("ComputeMaximum(%lg %lg) returned %lg\n",
+        first_number, second_number, ComputeMaximum(first_number, second_number));
     return 0;
 }
