@@ -9,7 +9,8 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #4 C1A4E1 (C)
-// Method returning MAX from two passed values
+// Function returning MAX from two passed values
+//
 
 double ComputeMaximum(double a, double b) {
     return a > b ? a : b;

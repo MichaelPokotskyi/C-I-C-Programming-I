@@ -9,7 +9,8 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #4 C1A4E1 (C)
-// Method returning MIN from two passed values
+// Function returning MIN from two passed values
+//
 
 double ComputeMinimum(double a, double b) {
     return a < b ? a : b;
