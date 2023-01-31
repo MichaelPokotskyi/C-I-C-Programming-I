@@ -16,5 +16,5 @@ using namespace std;
 
 void PrintLines(int symbol)
 {
-    cout << symbol << "\n";
+    cout << (char)symbol << "\n";
 }

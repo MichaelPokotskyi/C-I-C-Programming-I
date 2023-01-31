@@ -20,7 +20,7 @@ void PrintLines(int symbol, int symbol_qty, int line_qty)
     {
         for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
         {
-            cout << symbol;
+            cout << (char)symbol;
         }
         cout << "\n";
     }
