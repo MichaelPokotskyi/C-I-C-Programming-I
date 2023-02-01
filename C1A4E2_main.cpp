@@ -11,27 +11,27 @@
 // Assignment #3 C1A4E2 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-void PrintLines();
-void PrintLines(int symbol);
-void PrintLines(int symbol, int symbol_qty);
-void PrintLines(int symbol, int symbol_qty, int line_qty);
-
-int main()
-{
-    for (int iter = 0; iter < 2; ++iter)
-    {
-        char charValue;
-        int charCount, lineCount;
-        cout << "Enter 3 items CHAR_VALUE, CHAR_COUNT, LINE_COUNT \n";
-        cin >> charValue >> charCount >> lineCount;
-
-        PrintLines(charValue, charCount, lineCount);
-        PrintLines(charValue, charCount);
-        PrintLines(charValue);
-        PrintLines();
-    }
-    return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines();
+//void PrintLines(int symbol);
+//void PrintLines(int symbol, int symbol_qty);
+//void PrintLines(int symbol, int symbol_qty, int line_qty);
+//
+//int main()
+//{
+//    for (int iter = 0; iter < 2; ++iter)
+//    {
+//        char charValue;
+//        int charCount, lineCount;
+//        cout << "Enter 3 items CHAR_VALUE, CHAR_COUNT, LINE_COUNT \n";
+//        cin >> charValue >> charCount >> lineCount;
+//
+//        PrintLines(charValue, charCount, lineCount);
+//        PrintLines(charValue, charCount);
+//        PrintLines(charValue);
+//        PrintLines();
+//    }
+//    return 0;
+//}

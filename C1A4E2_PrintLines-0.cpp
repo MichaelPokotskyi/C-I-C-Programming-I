@@ -11,10 +11,10 @@
 // Assignment #3 C1A4E2 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-void PrintLines() 
-{
-    cout << "Z\n";
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines() 
+//{
+//    cout << "Z\n";
+//}

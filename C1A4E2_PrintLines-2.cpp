@@ -11,14 +11,14 @@
 // Assignment #3 C1A4E2 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-void PrintLines(int symbol, int symbol_qty)
-{
-    for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
-    {
-        cout << (char)symbol;
-    }
-    cout << "\n";
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines(int symbol, int symbol_qty)
+//{
+//    for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
+//    {
+//        cout << (char)symbol;
+//    }
+//    cout << "\n";
+//}

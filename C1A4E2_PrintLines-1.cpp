@@ -11,10 +11,10 @@
 // Assignment #3 C1A4E2 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-void PrintLines(int symbol)
-{
-    cout << (char)symbol << "\n";
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines(int symbol)
+//{
+//    cout << (char)symbol << "\n";
+//}

@@ -11,17 +11,17 @@
 // Assignment #3 C1A4E2 (C++)
 //
 
-#include <iostream>
-using namespace std;
-
-void PrintLines(int symbol, int symbol_qty, int line_qty)
-{
-    for (int line_control = 0; line_control < line_qty; ++line_control)
-    {
-        for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
-        {
-            cout << (char)symbol;
-        }
-        cout << "\n";
-    }
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines(int symbol, int symbol_qty, int line_qty)
+//{
+//    for (int line_control = 0; line_control < line_qty; ++line_control)
+//    {
+//        for (int symbol_control = 0; symbol_control < symbol_qty; ++symbol_control)
+//        {
+//            cout << (char)symbol;
+//        }
+//        cout << "\n";
+//    }
+//}

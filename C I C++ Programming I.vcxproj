@@ -149,6 +149,8 @@
     <ClCompile Include="C1A4E2_PrintLines-1.cpp" />
     <ClCompile Include="C1A4E2_PrintLines-2.cpp" />
     <ClCompile Include="C1A4E2_PrintLines-3.cpp" />
+    <ClCompile Include="C1A4E3_main.cpp" />
+    <ClCompile Include="C1A4E3_PrintLines.cpp" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
