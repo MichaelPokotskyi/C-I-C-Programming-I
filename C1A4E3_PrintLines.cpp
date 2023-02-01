@@ -8,7 +8,7 @@
 // Win10
 // Visual C++ 2022, ISO C++ 17
 //
-// Assignment #3 C1A4E3 (C++)
+// Assignment #4 C1A4E3 (C++)
 // Function printing given character as many times 
 // and lines as passed in arguments. Nested loops are used.
 

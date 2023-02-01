@@ -8,7 +8,7 @@
 // Win10
 // Visual C++ 2022, ISO C++ 17
 //
-// Assignment #3 C1A4E3 (C++)
+// Assignment #4 C1A4E3 (C++)
 // Function main providing user input for character, character 
 // and lines quantity used as arguments in PrintLines function.
 // Function calls testing default arguments.

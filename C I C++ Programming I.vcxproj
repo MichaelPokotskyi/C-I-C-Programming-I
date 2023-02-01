@@ -151,6 +151,7 @@
     <ClCompile Include="C1A4E2_PrintLines-3.cpp" />
     <ClCompile Include="C1A4E3_main.cpp" />
     <ClCompile Include="C1A4E3_PrintLines.cpp" />
+    <ClCompile Include="C1A4E4_main.cpp" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
@@ -165,6 +166,9 @@
       <FileType>Document</FileType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C1A4E4_MaxOf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

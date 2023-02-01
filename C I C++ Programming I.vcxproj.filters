@@ -75,6 +75,9 @@
     <ClCompile Include="C1A4E3_PrintLines.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A4E4_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
@@ -89,5 +92,10 @@
     <Text Include="C1A4E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C1A4E4_MaxOf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
