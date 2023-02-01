@@ -25,7 +25,7 @@
 //    {
 //        char charValue;
 //        int charCount, lineCount;
-//        cout << "Enter 3 items CHAR_VALUE, CHAR_COUNT, LINE_COUNT \n";
+//        cout << "Enter 3 items CHAR_VALUE, CHAR_COUNT, LINE_COUNT\n";
 //        cin >> charValue >> charCount >> lineCount;
 //
 //        PrintLines(charValue, charCount, lineCount);
