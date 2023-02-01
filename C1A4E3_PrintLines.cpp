@@ -17,10 +17,10 @@
 //
 //void PrintLines(int symbol, int symbol_qty, int line_qty)
 //{
-//    // first loop controlling lines quantity
+//    // first loop control lines quantity
 //    for (int line_control = 0; line_control < line_qty; ++line_control)
 //    {
-//        // second loop controlling character quantity in one line
+//        // second loop control character quantity in one line
 //        for (int symbol_control = 0; 
 //            symbol_control < symbol_qty; ++symbol_control)
 //        {
