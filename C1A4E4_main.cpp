@@ -9,7 +9,7 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #4 C1A4E4 (C++)
-// Program getting three user-inputed values and testing 
+// Program getting three user-inputted values and testing 
 // mMaxOf3 inline function and fMaxOf3 function-like macros
 
 #include <iostream>
@@ -24,11 +24,11 @@ int main()
     cin >> numberOne >> numberTwo >> numberThree;
     //formatted output of determined maximum value
     cout << "mMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
-         << ") returned " << mMaxOf3(numberOne, numberTwo, numberThree)
-         << "\n";
+        << ") returned " << mMaxOf3(numberOne, numberTwo, numberThree)
+        << "\n";
 
     cout << "fMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
-         << ") returned " << fMaxOf3(numberOne, numberTwo, numberThree)
-         << "\n";
+        << ") returned " << fMaxOf3(numberOne, numberTwo, numberThree)
+        << "\n";
     return 0;
 }
