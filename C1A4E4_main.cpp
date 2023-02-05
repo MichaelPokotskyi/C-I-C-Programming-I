@@ -16,7 +16,17 @@ using namespace std;
 
 int main()
 {
-    cout << "hello\n";
-    
+    //test cases
+    cout << mMaxOf3(-3.8, -3.5, -3.2) << endl;
+    cout << fMaxOf3(-3.8, -3.5, -3.2) << endl;
+    cout << endl;
+    cout << mMaxOf2(-3.8, -3.5) << endl;
+    cout << fMaxOf2(-3.8, -3.5) << endl;
+    cout << endl;
+    cout << mMaxOf3(1, 2, 3) << endl;
+    cout << fMaxOf3(1, 2, 3) << endl;
+    cout << endl;
+    cout << mMaxOf2(1, 2) << endl;
+    cout << fMaxOf2(1, 2) << endl;
         return 0;
 }
