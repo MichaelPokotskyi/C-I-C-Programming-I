@@ -17,7 +17,5 @@ int main()
 {
     cout << "hello\n";
     
-
-
-    return 0;
+        return 0;
 }
