@@ -9,6 +9,9 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #4 C1A4E4 (C++)
+// 
+
+
 
 #include <iostream>
 #include "C1A4E4_MaxOf.h"
@@ -16,17 +19,16 @@ using namespace std;
 
 int main()
 {
-    //test cases
-    cout << mMaxOf3(-3.8, -3.5, -3.2) << endl;
-    cout << fMaxOf3(-3.8, -3.5, -3.2) << endl;
-    cout << endl;
-    cout << mMaxOf2(-3.8, -3.5) << endl;
-    cout << fMaxOf2(-3.8, -3.5) << endl;
-    cout << endl;
-    cout << mMaxOf3(1, 2, 3) << endl;
-    cout << fMaxOf3(1, 2, 3) << endl;
-    cout << endl;
-    cout << mMaxOf2(1, 2) << endl;
-    cout << fMaxOf2(1, 2) << endl;
-        return 0;
+    double numberOne, numberTwo, numberThree;
+    cout << "Enter 3 numbers\n";
+    cin >> numberOne >> numberTwo >> numberThree;
+    cout << "mMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
+        << ") " << "returned " 
+        << mMaxOf3(numberOne, numberTwo, numberThree) << "\n";
+
+    cout << "fMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
+        << ") " << "returned " 
+        << fMaxOf3(numberOne, numberTwo, numberThree) << "\n";
+    return 0;
 }
+

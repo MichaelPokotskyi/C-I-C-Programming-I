@@ -9,21 +9,31 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #4 C1A4E4 (C++)
+// File contains implementation of inline functions 
+// and functions-like macros used for determine MAX value
+// of three numbers, based on two numbers comparison
 
-//2 param macro
-#define mMaxOf2(numberOne, numberTwo) ((numberOne) > (numberTwo) ? (numberOne) : (numberTwo))
+//include guard to avoid double includes
+#ifndef _C1A4E4_MaxOf_
+#define _C1A4E4_MaxOf_
 
-//3 param macro
-#define mMaxOf3(numberOne, numberTwo, numberThree) (mMaxOf2((numberOne), mMaxOf2((numberTwo), (numberThree))))
+// two numbers comparison
+#define mMaxOf2(numberOne, numberTwo) \
+		((numberOne) > (numberTwo) ? (numberOne) : (numberTwo))     \
 
-//2 param inline func
+// three numbers comparison
+#define mMaxOf3(numberOne, numberTwo, numberThree) \
+		(mMaxOf2((numberOne), mMaxOf2((numberTwo), (numberThree)))) \
+
+// two numbers comparison
 inline double fMaxOf2(double numberOne, double numberTwo)
 {
 	return numberOne > numberTwo ? numberOne : numberTwo;
 }
 
-//3 param inline func
+// three numbers comparison
 inline double fMaxOf3(double numberOne, double numberTwo, double numberThree)
 {
 	return fMaxOf2(numberOne, fMaxOf2(numberTwo, numberThree));
 }
+#endif _C1A4E4_MaxOf_
