@@ -17,21 +17,20 @@
 #ifndef _C1A4E4_MaxOf_
 #define _C1A4E4_MaxOf_
 
-// two numbers comparison
+// two numbers comparison, function-like macros
 #define mMaxOf2(numberOne, numberTwo) \
 		((numberOne) > (numberTwo) ? (numberOne) : (numberTwo))     \
 
-// three numbers comparison
+// three numbers comparison, function-like macros
 #define mMaxOf3(numberOne, numberTwo, numberThree) \
 		(mMaxOf2((numberOne), mMaxOf2((numberTwo), (numberThree)))) \
 
-// two numbers comparison
+// two numbers comparison, inline function
 inline double fMaxOf2(double numberOne, double numberTwo)
 {
 	return numberOne > numberTwo ? numberOne : numberTwo;
 }
-
-// three numbers comparison
+// three numbers comparison, inline function
 inline double fMaxOf3(double numberOne, double numberTwo, double numberThree)
 {
 	return fMaxOf2(numberOne, fMaxOf2(numberTwo, numberThree));
