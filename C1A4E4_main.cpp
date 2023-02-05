@@ -11,6 +11,7 @@
 // Assignment #4 C1A4E4 (C++)
 
 #include <iostream>
+#include "C1A4E4_MaxOf.h"
 using namespace std;
 
 int main()

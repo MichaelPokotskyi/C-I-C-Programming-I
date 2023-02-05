@@ -10,4 +10,14 @@
 //
 // Assignment #4 C1A4E4 (C++)
 
+//2 param macro
+#define mMaxOf2
 
+//3 param macro
+#define mMaxOf3
+
+//2 param inline func
+inline double fMaxOf2() {}
+
+//3 param inline func
+inline double fMaxOf3() {}
