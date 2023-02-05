@@ -24,11 +24,11 @@ int main()
     cin >> numberOne >> numberTwo >> numberThree;
     //formatted output of determined maximum value
     cout << "mMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
-         << ") " << "returned " << mMaxOf3(numberOne, numberTwo, numberThree)
+         << ") returned " << mMaxOf3(numberOne, numberTwo, numberThree)
          << "\n";
 
     cout << "fMaxOf3(" << numberOne << ", " << numberTwo << ", " << numberThree
-         << ") " << "returned " << fMaxOf3(numberOne, numberTwo, numberThree)
+         << ") returned " << fMaxOf3(numberOne, numberTwo, numberThree)
          << "\n";
     return 0;
 }
