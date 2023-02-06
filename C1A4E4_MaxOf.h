@@ -27,12 +27,12 @@
 
 // two numbers comparison, inline function
 inline double fMaxOf2(double numberOne, double numberTwo)
-    {
+{
         return numberOne > numberTwo ? numberOne : numberTwo;
-    }
+}
 // three numbers comparison, inline function
 inline double fMaxOf3(double numberOne, double numberTwo, double numberThree)
-    {
+{
         return fMaxOf2(numberOne, fMaxOf2(numberTwo, numberThree));
-    }
+}
 #endif // C1A4E4_MAXOF_H
