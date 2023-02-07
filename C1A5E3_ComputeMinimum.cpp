@@ -4,7 +4,7 @@
 // C I C++ Programming I
 // C1 168566 Raymond L. Mitchell
 // 2/6/2023
-// C1A5E3_ComputeMaximum.c
+// C1A5E3_ComputeMinimum.c
 // Win10
 // Visual C++ 2022, ISO C17
 //
