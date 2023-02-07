@@ -78,6 +78,27 @@
     <ClCompile Include="C1A4E4_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A5E1_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E2_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E2_ComputeMaximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E2_ComputeMinimum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E3_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E3_ComputeMaximum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A5E3_ComputeMinimum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
@@ -90,6 +111,9 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="C1A4E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="C1A5E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
