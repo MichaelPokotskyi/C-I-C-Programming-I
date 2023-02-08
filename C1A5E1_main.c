@@ -34,14 +34,9 @@ int main(void)
         printf("Shopper %d: ", shopper);
         int userInput;
         scanf_s("%d", &userInput);
-        if (shopper == SHOPPERS)
-        {
-            printf("\n");                          // extra line before table
-        }
         // correct input
         if (userInput >= WORST && userInput <= BEST)
         {
-            ++shopper;
             ++feedbacks[userInput - WORST];        // increment response count
             errors = 0;                            // refresh error counter
         }
@@ -55,12 +50,12 @@ int main(void)
                 printf("->Survey incomplete: Range error termination<-\n\n");
                 break;
             }
-            --shopper;                             // stay at current index
             continue;
         }
+        ++shopper;
     }
     //format table and output numbers
-    printf("Rating       Quantity\n"
+    printf("\nRating       Quantity\n"
            "------       --------\n");
     for (int countArr = CHOICES - 1; countArr >= 0; --countArr)
         printf("%6d %14d\n", countArr + WORST, feedbacks[countArr]);
