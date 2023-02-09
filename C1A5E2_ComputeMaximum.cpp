@@ -10,7 +10,7 @@
 //
 // Assignment #5 C1A5E2 (C)
 
-double ComputeMaximum(const double &first_number, const double &second_number) 
+double &ComputeMaximum(const double &first_number, const double &second_number) 
 {
-    return first_number > second_number ? first_number : second_number;
+    return (double&)(first_number > second_number ? first_number : second_number);
 }
