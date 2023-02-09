@@ -9,9 +9,8 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #5 C1A5E2 (C)
-//
 
-double ComputeMinimum(double const &first_number, double const &second_number)
+double ComputeMinimum(const double &first_number, const double &second_number)
 {
     return first_number < second_number ? first_number : second_number;
 }

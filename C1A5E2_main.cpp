@@ -21,7 +21,7 @@ int main()
 {
     double first_number, second_number;
     cout << "Enter two numbers: ";
-    scanf_s("%lg %lg", &first_number, &second_number);
+    cin >> first_number >> second_number;
     // MIN and MAX output statements,
     // the third value is an appropriate fumction call retutrning type double
     cout << "ComputeMinimum(" << first_number << ", " << second_number <<
