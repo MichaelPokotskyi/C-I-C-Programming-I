@@ -9,8 +9,10 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #5 C1A5E2 (C)
+// Function returning MAX from two passed references of double type
 
 double &ComputeMaximum(const double &first_number, const double &second_number) 
 {
-    return (double&)(first_number > second_number ? first_number : second_number);
+    return (double &)
+        (first_number > second_number ? first_number : second_number);
 }

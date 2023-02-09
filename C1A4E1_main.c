@@ -10,7 +10,7 @@
 //
 // Assignment #4 C1A4E1 (C)
 // This program comparing and returning MAX and MIN values 
-// from two numbers user imput using two different functions
+// from two numbers user input using two different functions
 //
 
 //#include <stdio.h>
