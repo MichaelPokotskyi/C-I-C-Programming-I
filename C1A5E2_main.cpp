@@ -17,8 +17,8 @@
 #include <iostream>
 using namespace std;
 
-/* functions declared as with constant argument listand returning reference
- of type double */
+//functions declared with constant argument list and returning reference
+//of type double
 double &ComputeMinimum(const double &first_number, const double &second_number);
 double &ComputeMaximum(const double &first_number, const double &second_number);
 
@@ -28,7 +28,8 @@ int main()
     cout << "Enter two numbers: ";
     cin >> first_number >> second_number;
     // MIN and MAX output statements,
-    // the third value is an appropriate fumction call retutrning reference of type double
+    // the third value is appropriate fumction call 
+    // retutrning reference of type double
     cout << "ComputeMinimum(" << first_number << ", " << second_number <<
         ") returned " << ComputeMinimum(first_number, second_number) << "\n";
     cout << "ComputeMaximum(" << first_number << ", " << second_number << 
