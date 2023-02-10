@@ -12,27 +12,25 @@
 // This program comparing and returning MAX and MIN values 
 // from two numbers user input using two different functions.
 // Each function argument list and returning types are references
-// to double.
+// to type double.
 
-#include <iostream>
-using namespace std;
-
-//functions declared with constant argument list and returning reference
-//of type double
-double &ComputeMinimum(const double &first_number, const double &second_number);
-double &ComputeMaximum(const double &first_number, const double &second_number);
-
-int main()
-{
-    double first_number, second_number;
-    cout << "Enter two numbers: ";
-    cin >> first_number >> second_number;
-    // MIN and MAX output statements,
-    // the third value is appropriate fumction call 
-    // retutrning reference of type double
-    cout << "ComputeMinimum(" << first_number << ", " << second_number <<
-        ") returned " << ComputeMinimum(first_number, second_number) << "\n";
-    cout << "ComputeMaximum(" << first_number << ", " << second_number << 
-        ") returned " << ComputeMaximum(first_number, second_number) << "\n";
-    return 0;
-}
+//#include <iostream>
+//using namespace std;
+//
+//double &ComputeMinimum(const double &nbr1, const double &nbr2);
+//double &ComputeMaximum(const double &nbr1, const double &nbr2);
+//
+//int main()
+//{
+//    double nbr1, nbr2;
+//    cout << "Enter two numbers: ";
+//    cin >> nbr1 >> nbr2;
+//    // MIN and MAX output statements,
+//    // the third value is appropriate function call 
+//    // returning reference of type double
+//    cout << "ComputeMinimum(" << nbr1 << ", " << nbr2 <<
+//        ") returned " << ComputeMinimum(nbr1, nbr2) << "\n";
+//    cout << "ComputeMaximum(" << nbr1 << ", " << nbr2 << 
+//        ") returned " << ComputeMaximum(nbr1, nbr2) << "\n";
+//    return 0;
+//}

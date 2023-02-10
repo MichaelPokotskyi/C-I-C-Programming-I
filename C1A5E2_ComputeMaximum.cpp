@@ -11,9 +11,7 @@
 // Assignment #5 C1A5E2 (C)
 // Function returning MAX from two passed references of type double
 
-double &ComputeMaximum
-(const double &first_number, const double &second_number)
-{
-    return (double &)
-        (first_number > second_number ? first_number : second_number);
-}
+//double &ComputeMaximum(const double &nbr1, const double &nbr2)
+//{
+//    return (double &)(nbr1 > nbr2 ? nbr1 : nbr2);
+//}
