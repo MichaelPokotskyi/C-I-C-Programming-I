@@ -19,15 +19,15 @@ double* ComputeMaximum(const double* nbr1, const double* nbr2);
 
 int main()
 {
-    double *nbr1, *nbr2;
+    double nbr1, nbr2;
     cout << "Enter two numbers: ";
-    cin >> *nbr1 >> *nbr2;
+    cin >> nbr1 >> nbr2;
     // MIN and MAX output statements,
     // the third value is appropriate function call 
-    // returning reference of type double
-    cout << "ComputeMinimum(" << nbr1 << ", " << nbr2 <<
-        ") returned " << ComputeMinimum(nbr1, nbr2) << "\n";
-    cout << "ComputeMaximum(" << nbr1 << ", " << nbr2 <<
-        ") returned " << ComputeMaximum(nbr1, nbr2) << "\n";
+    // returning pointer of type double
+    cout << "ComputeMinimum(&" << nbr1 << ", &" << nbr2 <<
+        ") returned &" << *ComputeMinimum(&nbr1, &nbr2) << "\n";
+    cout << "ComputeMaximum(&" << nbr1 << ", &" << nbr2 <<
+        ") returned &" << *ComputeMaximum(&nbr1, &nbr2) << "\n";
     return 0;
 }
