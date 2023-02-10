@@ -14,14 +14,14 @@
 #include <iostream>
 using namespace std;
 
-double& ComputeMinimum(const double& nbr1, const double& nbr2);
-double& ComputeMaximum(const double& nbr1, const double& nbr2);
+double* ComputeMinimum(const double* nbr1, const double* nbr2);
+double* ComputeMaximum(const double* nbr1, const double* nbr2);
 
 int main()
 {
-    double nbr1, nbr2;
+    double *nbr1, *nbr2;
     cout << "Enter two numbers: ";
-    cin >> nbr1 >> nbr2;
+    cin >> *nbr1 >> *nbr2;
     // MIN and MAX output statements,
     // the third value is appropriate function call 
     // returning reference of type double
