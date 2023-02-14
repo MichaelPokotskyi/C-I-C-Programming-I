@@ -12,7 +12,7 @@
 // Function returns pointer to lowest value
 // from two passed pointers of type double
 
-double *ComputeMinimum(const double *nbr1, const double *nbr2)
-{
-    return (double *)(*nbr1 < *nbr2 ? nbr1 : nbr2);
-}
+//double *ComputeMinimum(const double *nbr1, const double *nbr2)
+//{
+//    return (double *)(*nbr1 < *nbr2 ? nbr1 : nbr2);
+//}

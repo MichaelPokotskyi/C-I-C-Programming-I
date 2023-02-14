@@ -9,10 +9,8 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #5 C1A5E2 (C)
-// This program comparing and returning MAX and MIN values 
-// from two numbers user input using two different functions.
-// Each function argument list and returning types are references
-// to type double.
+// This program comparing and returning references
+// to MAX and MIN user entered values
 
 //#include <iostream>
 //using namespace std;
