@@ -159,6 +159,12 @@
     <ClCompile Include="C1A5E3_ComputeMaximum.cpp" />
     <ClCompile Include="C1A5E3_ComputeMinimum.cpp" />
     <ClCompile Include="C1A5E3_main.cpp" />
+    <ClCompile Include="C1A6E1_main.c" />
+    <ClCompile Include="C1A6E1_MyStrlen.c" />
+    <ClCompile Include="C1A6E2_main.c" />
+    <ClCompile Include="C1A6E2_MyStrcmp.c" />
+    <ClCompile Include="C1A6E3_GetSubstring.c" />
+    <ClCompile Include="C1A6E3_main.c" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
@@ -168,6 +174,7 @@
     <Text Include="C1A3E0_Quiz.txt" />
     <Text Include="C1A4E0_Quiz.txt" />
     <Text Include="C1A5E0_Quiz.txt" />
+    <Text Include="C1A6E0_Quiz.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C1A4E1_ComputeMinimum.c">

@@ -99,6 +99,24 @@
     <ClCompile Include="C1A5E3_ComputeMinimum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A6E1_MyStrlen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A6E1_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A6E2_MyStrcmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A6E2_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A6E3_GetSubstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A6E3_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
@@ -114,6 +132,9 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="C1A5E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="C1A6E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
