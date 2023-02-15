@@ -9,7 +9,7 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #6 C1A6E1 (C)
-
+// 
 
 #include <stdio.h>
 #include <string.h> // for strlen()

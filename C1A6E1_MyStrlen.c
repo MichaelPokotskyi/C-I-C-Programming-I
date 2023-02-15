@@ -10,7 +10,7 @@
 //
 // Assignment #6 C1A6E1 (C)
 // MyStrlen function return the string length with NO null terminator
-// character using pointer arithmetic technique.
+// character with pointer arithmetic technique.
 
 #include <stddef.h> // for size_t
 
