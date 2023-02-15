@@ -9,12 +9,19 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E1 (C)
+// MyStrlen function return the string length with NO null terminator
+// character using pointer arithmetic technique.
 
-#include <stddef.h>
+#include <stddef.h> // for size_t
 
 size_t MyStrlen(const char* s1) 
 {
-    const char* const START = s1;
-    while (*s1) { ++s1; }
-    return (size_t)(s1 - START);
+    const char* const ORIG = s1;
+    while (*s1) 
+    { 
+        // increment bytesize while '\0' are reached
+        ++s1; 
+    }
+    // substract original length from increased length ('\0' not included)
+    return (size_t)(s1 - ORIG);
 }

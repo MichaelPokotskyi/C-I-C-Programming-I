@@ -12,7 +12,7 @@
 
 
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // for strlen()
 
 #define BUF_LENGTH 256
 
@@ -22,9 +22,7 @@ int main(void)
 {
     printf("Enter a string: ");
     char inBuf[BUF_LENGTH];
-    scanf("%255[^\n]", inBuf);    //gets(inBuf);
+    scanf("%255[^\n]", inBuf);
     printf("strlen (\"%s\") returned %u\n", inBuf, strlen(inBuf));
     printf("MyStrlen (\"%s\") returned %u\n", inBuf, MyStrlen(inBuf));
-
-    //printf("%s", inBuf);
 }
