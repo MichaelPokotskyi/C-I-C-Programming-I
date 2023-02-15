@@ -22,10 +22,8 @@ int main(void)
 {
     printf("Enter a string: ");
     char inBuf[BUF_LENGTH];
-    //scanf("%255[^\n]", inBuf);
-
-
-
-    printf("strlen (\"%s\") returned %u\n", inBuf, strlen(inBuf));
-    printf("MyStrlen (\"%s\") returned %u\n", inBuf, MyStrlen(inBuf));
+    fgets(inBuf, BUF_LENGTH, stdin);
+    inBuf[strcspn(inBuf, "\n")] = '\0';
+    printf("strlen (\"%s\") returned %d\n", inBuf, strlen(inBuf));
+    printf("MyStrlen (\"%s\") returned %d\n", inBuf, MyStrlen(inBuf));
 }
