@@ -19,8 +19,8 @@ size_t MyStrlen(const char* s1)
     const char* const ORIG = s1;
     while (*s1) 
     { 
-        // increment bytesize while '\0' are reached
-        ++s1; 
+        // increment size while '\0' are reached
+        s1++; 
     }
     // substract original length from increased length ('\0' not included)
     return (size_t)(s1 - ORIG);

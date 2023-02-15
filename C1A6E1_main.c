@@ -22,7 +22,10 @@ int main(void)
 {
     printf("Enter a string: ");
     char inBuf[BUF_LENGTH];
-    scanf("%255[^\n]", inBuf);
+    //scanf("%255[^\n]", inBuf);
+
+
+
     printf("strlen (\"%s\") returned %u\n", inBuf, strlen(inBuf));
     printf("MyStrlen (\"%s\") returned %u\n", inBuf, MyStrlen(inBuf));
 }
