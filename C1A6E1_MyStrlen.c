@@ -9,3 +9,13 @@
 // Visual C++ 2022, ISO C17
 //
 // Assignment #6 C1A6E1 (C)
+
+#include <stddef.h>
+
+size_t MyStrlen(const char* s1) 
+{
+    const char* const START = s1;
+    s1++;
+
+    return 5;
+}

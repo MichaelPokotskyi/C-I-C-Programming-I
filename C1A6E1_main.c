@@ -10,3 +10,21 @@
 //
 // Assignment #6 C1A6E1 (C)
 
+
+#include <stdio.h>
+#include <string.h>
+
+#define BUF_LENGTH 256
+
+size_t MyStrlen(const char* s1);
+
+int main(void)
+{
+    printf("Enter a string: ");
+    char inBuf[BUF_LENGTH];
+    scanf("%255s", inBuf);
+    printf("strlen (\"%s\") returned %u\n", inBuf, strlen(inBuf));
+    printf("MyStrlen (\"%s\") returned %u\n", inBuf, MyStrlen(inBuf));
+
+    printf("%s", inBuf);
+}
