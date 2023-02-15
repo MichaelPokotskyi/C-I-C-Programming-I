@@ -15,6 +15,6 @@
 size_t MyStrlen(const char* s1) 
 {
     const char* const START = s1;
-    while (*s1 != '\0') { ++s1; }
+    while (*s1) { ++s1; }
     return (size_t)(s1 - START);
 }
