@@ -6,7 +6,7 @@
 // 2/14/2023
 // C1A6E1_MyStrlen.c
 // Win10
-// Visual C++ 2022, ISO C17
+// Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E1 (C)
 

@@ -6,7 +6,7 @@
 // 2/14/2023
 // C1A6E2_main.c
 // Win10
-// Visual C++ 2022, ISO C17
+// Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E2 (C)
 
