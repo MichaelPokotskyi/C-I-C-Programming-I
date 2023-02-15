@@ -26,5 +26,5 @@ int main(void)
     printf("strlen (\"%s\") returned %u\n", inBuf, strlen(inBuf));
     printf("MyStrlen (\"%s\") returned %u\n", inBuf, MyStrlen(inBuf));
 
-    printf("%s", inBuf);
+    //printf("%s", inBuf);
 }
