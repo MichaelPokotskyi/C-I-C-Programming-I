@@ -14,14 +14,14 @@
 
 #include <stddef.h> // for size_t
 
-size_t MyStrlen(const char* s1) 
+size_t MyStrlen(const char *s1) 
 {
-    const char* const ORIG = s1;
+    const char * const ORIG = s1;
     while (*s1)
     { 
         // increment while '\0' are reached
         s1++; 
     }
-    // substract original length from increased length ('\0' not included)
+    // subtract original length from increased length ('\0' not included)
     return (size_t)(s1 - ORIG);
 }
