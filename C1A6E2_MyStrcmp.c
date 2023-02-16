@@ -26,5 +26,5 @@ int MyStrcmp(const char *s1, const char *s2)
         s2++;
     }
     // returning corresponding value of comparison
-    return ((*s1 < *s2) ? -1 : 1);
+    return((*s1 < *s2) ? -1 : 1);
 }
