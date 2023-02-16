@@ -9,6 +9,9 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E2 (C)
+//
 
-
-
+int MyStrcmp(const char* s1, const char* s2) 
+{
+    return 0;
+}
