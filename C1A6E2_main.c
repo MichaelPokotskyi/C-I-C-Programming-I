@@ -9,19 +9,21 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E2 (C)
+// 
 
 #include <stdio.h>
 #include <string.h> // for strcmp()
 
 #define BUF_LENGTH 256
 
-int MyStrcmp(const char* s1, const char* s2);
+int MyStrcmp(const char *s1, const char *s2);
 
 int main(void)
 {
     printf("Enter first string: ");
     // array of chars
     char inBufF[BUF_LENGTH], inBufS[BUF_LENGTH];
+
     fgets(inBufF, BUF_LENGTH, stdin);
     inBufF[strcspn(inBufF, "\n")] = '\0';
 
@@ -29,10 +31,8 @@ int main(void)
     fgets(inBufS, BUF_LENGTH, stdin);
     inBufS[strcspn(inBufS, "\n")] = '\0';
 
-    printf("strcmp (\"%s\", \"%s\")  returned %d\n", inBufF, inBufS, strcmp(inBufF, inBufS));
-    printf("MyStrcmp (\"%s\", \"%s\")  returned %d\n", inBufF, inBufS, MyStrcmp(inBufF, inBufS));
+    printf("strcmp (\"%s\", \"%s\")  returned %d\n",
+        inBufF, inBufS, strcmp(inBufF, inBufS));
+    printf("MyStrcmp (\"%s\", \"%s\")  returned %d\n",
+        inBufF, inBufS, MyStrcmp(inBufF, inBufS));
 }
-
-//if Return value < 0 then it indicates str1 is less than str2
-//if Return value > 0 then it indicates str2 is less than str1
-//if Return value = 0 then it indicates str1 is equal to str2
