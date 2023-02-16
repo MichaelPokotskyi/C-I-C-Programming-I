@@ -9,7 +9,9 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E2 (C)
-// 
+// Function main providing two user-input C-strings, calling standard 'strcmp'
+// function to compare strings, then comparing that strings with custom built 
+// function 'MyStrcmp' should return same value.
 
 #include <stdio.h>
 #include <string.h> // for strcmp()

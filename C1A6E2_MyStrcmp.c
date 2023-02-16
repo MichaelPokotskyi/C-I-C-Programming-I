@@ -17,7 +17,6 @@ int MyStrcmp(const char *s1, const char *s2)
     // iterating each character each string
     while(*s1 == *s2)
     {
-        
         //if first string equal to second
         if (*s1 == '\0')
         {
