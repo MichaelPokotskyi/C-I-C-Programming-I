@@ -12,19 +12,39 @@
 
 char* GetSubstring(const char source[], int start, int count, char result[])
 {
-    /*for (; *source && start; ++source, --start)
-        ;
-    if (start == 0) {}
-    else {}*/
-    char *p = result;
-    while (*result++ = *source++)
+    char* p = result;
+    
+    //while()
+
+    for (; *source; ++source, --start)
     {
-        //if (count == 0) { break;}
-        //count--;
-        //start++;
-        //count--;
+        if (start == 0) { break; }
     }
-            
+
+    for (; *result = *source; ++result, ++source, count-- ) {
+        if (count == 0) { break; }
+    }
+    *result = '\0';
+
+    
+
+    //for (; *result; ++result, --start) {
+    //    if (start == 0) { 
+    //        while (*result = *source) {
+    //            result++;
+    //            source++;
+    //        }
+    //            
+    //    }
+    //    //*result++;
+    //    *result = '\0';
+    //    break;
+    //}
+    //    
     return p;
-    //return (char*)(source);
+    //return source;
 }
+
+//for (; *result = *source; ++result, ++source, --start) {
+//    if (start == 0) { *result = '\0'; }
+//}
