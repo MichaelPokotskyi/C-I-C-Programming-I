@@ -13,28 +13,28 @@
 // function to compare strings, then comparing that strings with custom built 
 // function 'MyStrcmp' should return same value.
 
-#include <stdio.h>
-#include <string.h> // for strcmp()
-
-#define BUF_LENGTH 256
-
-int MyStrcmp(const char *s1, const char *s2);
-
-int main(void)
-{
-    printf("Enter first string: ");
-    // array of chars
-    char inBufF[BUF_LENGTH], inBufS[BUF_LENGTH];
-
-    fgets(inBufF, BUF_LENGTH, stdin);
-    inBufF[strcspn(inBufF, "\n")] = '\0';
-
-    printf("Enter second string: ");
-    fgets(inBufS, BUF_LENGTH, stdin);
-    inBufS[strcspn(inBufS, "\n")] = '\0';
-
-    printf("strcmp (\"%s\", \"%s\")  returned %d\n",
-        inBufF, inBufS, strcmp(inBufF, inBufS));
-    printf("MyStrcmp (\"%s\", \"%s\")  returned %d\n",
-        inBufF, inBufS, MyStrcmp(inBufF, inBufS));
-}
+//#include <stdio.h>
+//#include <string.h> // for strcmp()
+//
+//#define BUF_LENGTH 256
+//
+//int MyStrcmp(const char *s1, const char *s2);
+//
+//int main(void)
+//{
+//    printf("Enter first string: ");
+//    // array of chars
+//    char inBufF[BUF_LENGTH], inBufS[BUF_LENGTH];
+//
+//    fgets(inBufF, BUF_LENGTH, stdin);
+//    inBufF[strcspn(inBufF, "\n")] = '\0';
+//
+//    printf("Enter second string: ");
+//    fgets(inBufS, BUF_LENGTH, stdin);
+//    inBufS[strcspn(inBufS, "\n")] = '\0';
+//
+//    printf("strcmp (\"%s\", \"%s\")  returned %d\n",
+//        inBufF, inBufS, strcmp(inBufF, inBufS));
+//    printf("MyStrcmp (\"%s\", \"%s\")  returned %d\n",
+//        inBufF, inBufS, MyStrcmp(inBufF, inBufS));
+//}

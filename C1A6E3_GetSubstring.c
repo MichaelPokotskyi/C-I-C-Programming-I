@@ -10,3 +10,21 @@
 //
 // Assignment #6 C1A6E3 (C)
 
+char* GetSubstring(const char source[], int start, int count, char result[])
+{
+    /*for (; *source && start; ++source, --start)
+        ;
+    if (start == 0) {}
+    else {}*/
+    char *p = result;
+    while (*result++ = *source++)
+    {
+        //if (count == 0) { break;}
+        //count--;
+        //start++;
+        //count--;
+    }
+            
+    return p;
+    //return (char*)(source);
+}
