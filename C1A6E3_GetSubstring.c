@@ -9,42 +9,32 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E3 (C)
+// Function SubString() return pointer to the array of chars that contains
+// part of string limited by given two int values 'start' - first char index
+// at string and 'count' - quantity of characters needs to be output.
 
-char* GetSubstring(const char source[], int start, int count, char result[])
+char *GetSubstring(const char source[], int start, int count, char result[])
 {
-    char* p = result;
-    
-    //while()
-
+    char *p = result;
+    // loop that not copying characters while 'start' position will be reached
     for (; *source; ++source, --start)
     {
-        if (start == 0) { break; }
+        // if 'start' reached before '\0' terminator
+        if (start == 0) 
+        { 
+            break; 
+        }
     }
-
-    for (; *result = *source; ++result, ++source, count-- ) {
-        if (count == 0) { break; }
+    // loop that copying characters of the 'count' length
+    for (; *result = *source; ++result, ++source, count--)
+    {
+        // if 'count' reached before '\0' terminnator
+        if (count == 0) 
+        { 
+            break; 
+        }
     }
+    // '\0' terminator append to final result
     *result = '\0';
-
-    
-
-    //for (; *result; ++result, --start) {
-    //    if (start == 0) { 
-    //        while (*result = *source) {
-    //            result++;
-    //            source++;
-    //        }
-    //            
-    //    }
-    //    //*result++;
-    //    *result = '\0';
-    //    break;
-    //}
-    //    
     return p;
-    //return source;
 }
-
-//for (; *result = *source; ++result, ++source, --start) {
-//    if (start == 0) { *result = '\0'; }
-//}
