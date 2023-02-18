@@ -26,7 +26,7 @@ char *GetSubstring(const char source[], int start, int count, char result[])
         }
     }
     // loop that copying characters of the 'count' length
-    for (; *result = *source; ++result, ++source, count--)
+    for (; *result = *source; ++result, ++source, --count)
     {
         // if 'count' reached before '\0' terminnator
         if (count == 0) 
