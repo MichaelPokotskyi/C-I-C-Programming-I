@@ -12,7 +12,7 @@
 // Function compare the values pointed to by its parameters 
 // and return a pointer to the smallest value
 
-//double *ComputeMinimum(const double *nbr1, const double *nbr2)
-//{
-//    return (double *)(*nbr1 < *nbr2 ? nbr1 : nbr2);
-//}
+double *ComputeMinimum(const double *nbr1, const double *nbr2)
+{
+    return (double *)(*nbr1 < *nbr2 ? nbr1 : nbr2);
+}

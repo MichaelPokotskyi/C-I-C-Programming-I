@@ -12,6 +12,6 @@
 // Function returning MIN from two passed values
 //
 
-//double ComputeMinimum(double first_number, double second_number) {
-//    return first_number < second_number ? first_number : second_number;
-//}
+double ComputeMinimum(double first_number, double second_number) {
+    return first_number < second_number ? first_number : second_number;
+}

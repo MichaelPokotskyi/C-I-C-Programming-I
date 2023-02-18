@@ -12,23 +12,23 @@
 // Function main providing two user-input C-string and two int values used
 // as an range for substring extraction by GetSubstring function.
 
-#include <stdio.h>
-#include <string.h> // for strcpn()
-#define BUF_LENGTH 256
-
-char *GetSubstring(const char source[], int start, int count, char result[]);
-
-int main(void)
-{
-    int start, count;
-    char source[BUF_LENGTH], result[BUF_LENGTH];
-    //user input section
-    printf("Enter string: ");
-    fgets(source, BUF_LENGTH, stdin);
-    source[strcspn(source, "\n")] = '\0';
-    printf("Enter start and count values to get substring: ");
-    scanf("%d %d", &start, &count);
-    // console output of extraction
-    printf("\"%s\", %d, %d, extracts \"%s\"\n", 
-        source, start, count, GetSubstring(source, start, count, result));
-}
+//#include <stdio.h>
+//#include <string.h> // for strcpn()
+//#define BUF_LENGTH 256
+//
+//char *GetSubstring(const char source[], int start, int count, char result[]);
+//
+//int main(void)
+//{
+//    int start, count;
+//    char source[BUF_LENGTH], result[BUF_LENGTH];
+//    //user input section
+//    printf("Enter string: ");
+//    fgets(source, BUF_LENGTH, stdin);
+//    source[strcspn(source, "\n")] = '\0';
+//    printf("Enter start and count values to get substring: ");
+//    scanf("%d %d", &start, &count);
+//    // console output of extraction
+//    printf("\"%s\", %d, %d, extracts \"%s\"\n", 
+//        source, start, count, GetSubstring(source, start, count, result));
+//}

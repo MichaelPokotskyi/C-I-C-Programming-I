@@ -11,11 +11,11 @@
 // Assignment #4 C1A4E2 (C++)
 // Function printing character passed as function argument.
 
-//#include <iostream>
-//using namespace std;
-//
-//void PrintLines(int symbol)
-//{
-//    // character output
-//    cout << (char)symbol << "\n";
-//}
+#include <iostream>
+using namespace std;
+
+void PrintLines(int symbol)
+{
+    // character output
+    cout << (char)symbol << "\n";
+}

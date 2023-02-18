@@ -12,19 +12,19 @@
 // MyStrcmp function return int number as a result 
 // of comparing two C-style strings
 
-//int MyStrcmp(const char *s1, const char *s2)
-//{
-//    // iterating each character each string
-//    while (*s1 == *s2)
-//    {
-//        //if first string equal to second
-//        if (*s1 == '\0')
-//        {
-//            return 0;
-//        }
-//        s1++; 
-//        s2++;
-//    }
-//    // returning corresponding value of comparison
-//    return((*s1 < *s2) ? -1 : 1);
-//}
+int MyStrcmp(const char *s1, const char *s2)
+{
+    // iterating each character each string
+    while (*s1 == *s2)
+    {
+        //if first string equal to second
+        if (*s1 == '\0')
+        {
+            return 0;
+        }
+        s1++; 
+        s2++;
+    }
+    // returning corresponding value of comparison
+    return((*s1 < *s2) ? -1 : 1);
+}
