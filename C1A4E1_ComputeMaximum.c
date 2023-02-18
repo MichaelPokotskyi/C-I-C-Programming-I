@@ -12,6 +12,6 @@
 // Function returning MAX from two passed values
 //
 
-double ComputeMaximum(double first_number, double second_number) {
-    return first_number > second_number ? first_number : second_number;
-}
+//double ComputeMaximum(double first_number, double second_number) {
+//    return first_number > second_number ? first_number : second_number;
+//}

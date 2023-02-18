@@ -12,16 +12,16 @@
 // MyStrlen function return the string length with NO null terminator
 // character with pointer arithmetic technique.
 
-#include <stddef.h> // for size_t
-
-size_t MyStrlen(const char *s1) 
-{
-    const char * const ORIG = s1;
-    while (*s1)
-    { 
-        // increment while '\0' are reached
-        s1++; 
-    }
-    // subtract original length from increased length ('\0' not included)
-    return (size_t)(s1 - ORIG);
-}
+//#include <stddef.h> // for size_t
+//
+//size_t MyStrlen(const char *s1) 
+//{
+//    const char * const ORIG = s1;
+//    while (*s1)
+//    { 
+//        // increment while '\0' are reached
+//        s1++; 
+//    }
+//    // subtract original length from increased length ('\0' not included)
+//    return (size_t)(s1 - ORIG);
+//}

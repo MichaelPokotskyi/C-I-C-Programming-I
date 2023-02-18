@@ -13,28 +13,28 @@
 // part of string limited by given two int values 'start' - first char index
 // at string and 'count' - quantity of characters needs to be output.
 
-char *GetSubstring(const char source[], int start, int count, char result[])
-{
-    char *p = result;
-    // loop that not copying characters while 'start' position will be reached
-    for (; *source; ++source, --start)
-    {
-        // if 'start' reached before '\0' terminator
-        if (start == 0) 
-        { 
-            break; 
-        }
-    }
-    // loop that copying characters of the 'count' length
-    for (; *result = *source; ++result, ++source, --count)
-    {
-        // if 'count' reached before '\0' terminnator
-        if (count == 0) 
-        { 
-            break; 
-        }
-    }
-    // '\0' terminator append to final result
-    *result = '\0';
-    return p;
-}
+//char *GetSubstring(const char source[], int start, int count, char result[])
+//{
+//    char *p = result;
+//    // loop that not copying characters while 'start' position will be reached
+//    for (; *source; ++source, --start)
+//    {
+//        // if 'start' reached before '\0' terminator
+//        if (start == 0) 
+//        { 
+//            break; 
+//        }
+//    }
+//    // loop that copying characters of the 'count' length
+//    for (; *result = *source; ++result, ++source, --count)
+//    {
+//        // if 'count' reached before '\0' terminnator
+//        if (count == 0) 
+//        { 
+//            break; 
+//        }
+//    }
+//    // '\0' terminator append to final result
+//    *result = '\0';
+//    return p;
+//}

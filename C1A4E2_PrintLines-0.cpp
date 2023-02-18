@@ -11,11 +11,11 @@
 // Assignment #4 C1A4E2 (C++)
 // Function printing constant character with no arguments.
 
-#include <iostream>
-using namespace std;
-
-void PrintLines() 
-{
-    // character Z output
-    cout << "Z\n";
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines() 
+//{
+//    // character Z output
+//    cout << "Z\n";
+//}

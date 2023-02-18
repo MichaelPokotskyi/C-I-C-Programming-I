@@ -12,21 +12,21 @@
 // Function printing given character as many times 
 // and lines as passed in arguments. Nested loops are used.
 
-#include <iostream>
-using namespace std;
-
-void PrintLines(int symbol, int symbol_qty, int line_qty)
-{
-    // first loop control lines quantity
-    for (int line_control = 0; line_control < line_qty; ++line_control)
-    {
-        // second loop control character quantity in one line
-        for (int symbol_control = 0; 
-            symbol_control < symbol_qty; ++symbol_control)
-        {
-            // character output
-            cout << (char)symbol;
-        }
-        cout << "\n";
-    }
-}
+//#include <iostream>
+//using namespace std;
+//
+//void PrintLines(int symbol, int symbol_qty, int line_qty)
+//{
+//    // first loop control lines quantity
+//    for (int line_control = 0; line_control < line_qty; ++line_control)
+//    {
+//        // second loop control character quantity in one line
+//        for (int symbol_control = 0; 
+//            symbol_control < symbol_qty; ++symbol_control)
+//        {
+//            // character output
+//            cout << (char)symbol;
+//        }
+//        cout << "\n";
+//    }
+//}
