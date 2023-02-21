@@ -23,5 +23,6 @@ int main()
     };
 
     cout << sizeof(arr) / sizeof(arr[0]);
+    int y = arr.size();
 
 }
