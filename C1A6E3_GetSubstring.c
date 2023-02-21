@@ -9,9 +9,9 @@
 // Visual Studio 2022, ISO C17
 //
 // Assignment #6 C1A6E3 (C)
-// Function SubString() return pointer to the array of chars that contains
+// Function GetSubstring() return pointer to the array of chars that contains
 // part of string limited by given two int values 'start' - first char index
-// at string and 'count' - quantity of characters needs to be output.
+// at string and 'count' - quantity of characters need to be output.
 
 //char *GetSubstring(const char source[], int start, int count, char result[])
 //{
