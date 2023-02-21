@@ -117,6 +117,15 @@
     <ClCompile Include="C1A6E3_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C1A7E1_DetermineElapsedTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A7E1_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C1A7E2_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="C1A1E0_Quiz.txt">
@@ -137,9 +146,15 @@
     <Text Include="C1A6E0_Quiz.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="C1A7E0_Quiz.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C1A4E4_MaxOf.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C1A7E1_MyTime.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
