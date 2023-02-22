@@ -10,3 +10,13 @@
 //
 // Assignment #7 C1A7E1 (C++)
 
+#ifndef C1A7E1_MYTIME_H
+#define C1A7E1_MYTIME_H
+
+struct MyTime {
+    int hours, minutes, seconds;
+};
+
+MyTime* DetermineElapsedTime(const MyTime* t1, const MyTime* t2);
+
+#endif // C1A7E1_MYTIME_H
