@@ -22,7 +22,7 @@ MyTime* DetermineElapsedTime(const MyTime* start, const MyTime* stop) {
     long int calcSecStop = stop->hours * SEC_IN_HOUR + stop->minutes * SEC_IN_MIN + stop->seconds;
     long int diffTime = calcSecStop - calcSecStart;
 
-    if (diffTime > 0) 
+    if (diffTime > 0)
     {
         elapsed.hours = diffTime / SEC_IN_HOUR;
         diffTime -= elapsed.hours * SEC_IN_HOUR;
@@ -39,7 +39,7 @@ MyTime* DetermineElapsedTime(const MyTime* start, const MyTime* stop) {
         diffTime -= elapsed.minutes * SEC_IN_MIN;
         elapsed.seconds = diffTime;
     }
-    if (diffTime == 0) 
+    if (diffTime == 0)
     {
         elapsed.hours = HOUR_IN_DAY;
         elapsed.minutes = 0;
