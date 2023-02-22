@@ -12,56 +12,35 @@
 
 #include"C1A7E1_MyTime.h"
 
-const int SECONDS_IN_MINUTE = 60;
-const int MINUTES_IN_HOUR = 60;
-const int HOURS_IN_DAY = 24;
+const int SEC_IN_HOUR = 3600;
+const int SEC_IN_MIN = 60;
+const int HOUR_IN_DAY = 24;
 
 MyTime* DetermineElapsedTime(const MyTime* start, const MyTime* stop) {
     static MyTime elapsed;
+    long int calcSecStart = start->hours * SEC_IN_HOUR + start->minutes * SEC_IN_MIN + start->seconds;
+    long int calcSecStop = stop->hours * SEC_IN_HOUR + stop->minutes * SEC_IN_MIN + stop->seconds;
+    long int diffTime = calcSecStop - calcSecStart;
 
-    if (start == stop) { return &elapsed; }
-
-    // HOURS
-    if (start->hours < stop->hours)
-    {
-        elapsed.hours = stop->hours - start->hours;
+    if (diffTime > 0) {
+        elapsed.hours = diffTime / SEC_IN_HOUR;
+        diffTime -= elapsed.hours * SEC_IN_HOUR;
+        elapsed.minutes = diffTime / SEC_IN_MIN;
+        diffTime -= elapsed.minutes * SEC_IN_MIN;
+        elapsed.seconds = diffTime;
     }
-    if (start->hours > stop->hours)
-    {
-        elapsed.hours = HOURS_IN_DAY - (start->hours - stop->hours);
+    if (diffTime < 0) {
+        diffTime += HOUR_IN_DAY * SEC_IN_HOUR;
+        elapsed.hours = diffTime / SEC_IN_HOUR;
+        diffTime -= elapsed.hours * SEC_IN_HOUR;
+        elapsed.minutes = diffTime / SEC_IN_MIN;
+        diffTime -= elapsed.minutes * SEC_IN_MIN;
+        elapsed.seconds = diffTime;
     }
-    if (start->hours == stop->hours)
-    {
+    if (diffTime == 0) {
+        elapsed.hours = HOUR_IN_DAY;
         elapsed.minutes = 0;
-    }
-    
-    // MINUTWS
-    if (start->minutes < stop->minutes)
-    {
-        elapsed.minutes = stop->minutes - start->minutes;
-    }
-    if (start->minutes > stop->minutes)
-    {
-        elapsed.minutes = MINUTES_IN_HOUR  - (start->minutes - stop->minutes);
-    }
-    if (start->minutes == stop->minutes) 
-    {
-        elapsed.minutes = 0;
-    }
-
-    // SECONDS
-    if (start->seconds < stop->seconds)
-    {
-        elapsed.seconds = stop->seconds - start->seconds;
-    }
-    if (start->seconds > stop->seconds)
-    {
-        elapsed.seconds = SECONDS_IN_MINUTE - (start->seconds + stop->seconds);
-    }
-    if (start->seconds == stop->seconds)
-    {
         elapsed.seconds = 0;
     }
-
     return &elapsed;
 }

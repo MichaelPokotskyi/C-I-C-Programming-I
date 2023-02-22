@@ -11,6 +11,7 @@
 // Assignment #7 C1A7E1 (C++)
 
 #include <iostream>
+#include <iomanip>
 #include "C1A7E1_MyTime.h"
 
 const int INPUT = 3;
@@ -18,26 +19,26 @@ using namespace std;
 
 int main()
 {
-    MyTime start, stop;
-    MyTime* result;
-    char delim = ':';
-
     for (int input = 0; input < INPUT; ++input)
     {
+        MyTime start, stop;
+        char delim;
         cout << "Enter START and STOP time in HH:MM:SS format - space separated: ";
-        cin >> start.hours >> delim >> start.minutes >> delim >> start.seconds >> 
-            stop.hours >> delim >> stop.minutes >> delim >> stop.seconds;
-        //cin >> start.hours >> start.minutes >> start.seconds;
-        
-        //cout << "Enter STOP time HH:MM:SS space separated: ";
-        //cin >> stop.hours >> delim >> stop.minutes >> delim >> stop.seconds;
-        //cin >> stop.hours >> stop.minutes >> stop.seconds;
-
-        result = DetermineElapsedTime(&start, &stop);
+        cin >> start.hours >> delim >> start.minutes >> delim >> start.seconds 
+            >> stop.hours >> delim >> stop.minutes >> delim >> stop.seconds;
+        MyTime *result = DetermineElapsedTime(&start, &stop);
         cout << "The time elapsed from " <<
-            start.hours << ":" << start.minutes << ":" << start.seconds << " to " <<
-            stop.hours << ":" << stop.minutes << ":" << stop.seconds << " is " <<
-            result->hours << ":" << result->minutes << ":" << result->seconds << "\n";
-        return 0;
+            setfill('0') << setw(2) << start.hours << ":" << 
+            setfill('0') << setw(2) << start.minutes << ":" <<
+            setfill('0') << setw(2) << start.seconds << " to " << 
+
+            setfill('0') << setw(2) << stop.hours << ":" << 
+            setfill('0') << setw(2) << stop.minutes << ":" << 
+            setfill('0') << setw(2)<< stop.seconds << " is " <<
+
+            setfill('0') << setw(2) << result->hours << ":" << 
+            setfill('0') << setw(2) << result->minutes << ":" << 
+            setfill('0') << setw(2) << result->seconds << "\n";
     }
+    return 0;
 }
