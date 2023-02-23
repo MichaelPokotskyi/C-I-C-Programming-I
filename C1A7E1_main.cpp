@@ -9,36 +9,42 @@
 // Visual C++ 2022, ISO C++ 14
 //
 // Assignment #7 C1A7E1 (C++)
+// Testing DetermineElapsedTime implementation.
 
 #include <iostream>
 #include <iomanip>
 #include "C1A7E1_MyTime.h"
 
-const int INPUT = 3;
 using namespace std;
+
+//user input count
+const int INPUT = 3;
 
 int main()
 {
+    cout << setfill('0');
     for (int input = 0; input < INPUT; ++input)
     {
         MyTime start, stop;
+        // input separator character omitted
         char delim;
-        cout << "Enter START and STOP time in HH:MM:SS format - space separated: ";
-        cin >> start.hours >> delim >> start.minutes >> delim >> start.seconds 
+        cout << "Enter START and STOP time in HH:MM:SS"
+            "format - space separated: ";
+        // directly into the appropriate members of two MyTime structures
+        cin >> start.hours >> delim >> start.minutes >> delim >> start.seconds
             >> stop.hours >> delim >> stop.minutes >> delim >> stop.seconds;
         MyTime *result = DetermineElapsedTime(&start, &stop);
-        cout << "The time elapsed from " <<
-            setfill('0') << setw(2) << start.hours << ":" << 
-            setfill('0') << setw(2) << start.minutes << ":" <<
-            setfill('0') << setw(2) << start.seconds << " to " << 
-
-            setfill('0') << setw(2) << stop.hours << ":" << 
-            setfill('0') << setw(2) << stop.minutes << ":" << 
-            setfill('0') << setw(2)<< stop.seconds << " is " <<
-
-            setfill('0') << setw(2) << result->hours << ":" << 
-            setfill('0') << setw(2) << result->minutes << ":" << 
-            setfill('0') << setw(2) << result->seconds << "\n";
+        // output section
+        cout << "The time elapsed from " 
+            << setw(2) << start.hours << ":"
+            << setw(2) << start.minutes << ":"
+            << setw(2) << start.seconds << " to "
+            << setw(2) << stop.hours << ":"
+            << setw(2) << stop.minutes << ":"
+            << setw(2) << stop.seconds << " is "
+            << setw(2) << result->hours << ":"
+            << setw(2) << result->minutes << ":"
+            << setw(2) << result->seconds << "\n";
     }
     return 0;
 }
