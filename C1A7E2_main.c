@@ -11,7 +11,10 @@
 // Assignment #7 C1A7E2 (C)
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #define LUNCH_QTY 5
+#define BUF_LENGTH 256
 
 int main(void)
 {
@@ -24,6 +27,15 @@ int main(void)
         {"Salad", 2, 80},
     };
     for (int input = 2; input < LUNCH_QTY; ++input) {
+        char inBuf[BUF_LENGTH];
+        //lunches[input].name = NULL;
+        printf("Please, enter space separated food name (no spaces), food weight and calories:");
+
+        scanf("%255s %d %d", inBuf, &lunches[input].weight, &lunches[input].calories);
+        size_t sLength = strlen(inBuf) + 1;
+        lunches[input].name = (char *)malloc(sLength);
+
+        memcpy(lunches[input].name, inBuf, sLength);
 
     }
 
