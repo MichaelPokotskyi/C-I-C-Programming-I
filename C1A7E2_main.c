@@ -11,14 +11,10 @@
 // Assignment #7 C1A7E2 (C)
 
 #include <stdio.h>
-
 #define LUNCH_QTY 5
-
-
 
 int main(void)
 {
-
     struct Food
     {
         char* name; /* "name" attribute of food */
@@ -27,8 +23,9 @@ int main(void)
         {"Apple", 4, 100},
         {"Salad", 2, 80},
     };
+    for (int input = 2; input < LUNCH_QTY; ++input) {
 
-
+    }
 
     return 0;
 }
