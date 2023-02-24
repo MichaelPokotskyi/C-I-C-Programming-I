@@ -10,3 +10,25 @@
 //
 // Assignment #7 C1A7E2 (C)
 
+#include <stdio.h>
+
+#define LUNCH_QTY 5
+
+
+
+int main(void)
+{
+
+    struct Food
+    {
+        char* name; /* "name" attribute of food */
+        int weight, calories; /* "weight" and "calories" attributes of food */
+    } lunches[LUNCH_QTY] = {
+        {"Apple", 4, 100},
+        {"Salad", 2, 80},
+    };
+
+
+
+    return 0;
+}
