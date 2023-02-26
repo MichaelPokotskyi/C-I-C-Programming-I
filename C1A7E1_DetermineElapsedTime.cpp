@@ -1,17 +1,17 @@
+////
+//// Michael Pokotskyi U09662201
+//// pokotskyi.m@gmail.com
+//// C I C++ Programming I
+//// C1 168566 Raymond L. Mitchell
+//// 2/20/2023
+//// C1A7E1_DetermineElapsedTime.cpp
+//// Win10
+//// Visual C++ 2022, ISO C++ 14
+////
+//// Assignment #7 C1A7E1 (C++)
+//// DetermineElapsedTime implementing calculation 
+//// of elapsed time between given two time values.
 //
-// Michael Pokotskyi U09662201
-// pokotskyi.m@gmail.com
-// C I C++ Programming I
-// C1 168566 Raymond L. Mitchell
-// 2/20/2023
-// C1A7E1_DetermineElapsedTime.cpp
-// Win10
-// Visual C++ 2022, ISO C++ 14
-//
-// Assignment #7 C1A7E1 (C++)
-// DetermineElapsedTime implementing calculation 
-// of elapsed time between given two time values.
-
 //#include "C1A7E1_MyTime.h"
 //
 //const int SEC_IN_HOUR = 3600;
@@ -22,12 +22,12 @@
 //    static MyTime elapsed;
 //    // converting start and stop times to seconds
 //    // and calculating their difference
-//    long int SecStart = 
+//    long SecStart = 
 //        start->hours * SEC_IN_HOUR + start->minutes * SEC_IN_MIN 
 //        + start->seconds;
-//    long int SecStop = 
+//    long SecStop = 
 //        stop->hours * SEC_IN_HOUR + stop->minutes * SEC_IN_MIN + stop->seconds;
-//    long int diffTime = SecStop - SecStart;
+//    long diffTime = SecStop - SecStart;
 //    // if > 0 - current day, converting seconds back to min and hours
 //    // and subtracting calculated value from difference
 //    if (diffTime > 0)

@@ -1,16 +1,16 @@
+////
+//// Michael Pokotskyi U09662201
+//// pokotskyi.m@gmail.com
+//// C I C++ Programming I
+//// C1 168566 Raymond L. Mitchell
+//// 2/20/2023
+//// C1A7E1_main.cpp
+//// Win10
+//// Visual C++ 2022, ISO C++ 14
+////
+//// Assignment #7 C1A7E1 (C++)
+//// Testing DetermineElapsedTime implementation.
 //
-// Michael Pokotskyi U09662201
-// pokotskyi.m@gmail.com
-// C I C++ Programming I
-// C1 168566 Raymond L. Mitchell
-// 2/20/2023
-// C1A7E1_main.cpp
-// Win10
-// Visual C++ 2022, ISO C++ 14
-//
-// Assignment #7 C1A7E1 (C++)
-// Testing DetermineElapsedTime implementation.
-
 //#include <iostream>
 //#include <iomanip>
 //#include "C1A7E1_MyTime.h"
@@ -28,7 +28,7 @@
 //        MyTime start, stop;
 //        // input separator character omitted
 //        char delim;
-//        cout << "Enter START and STOP time in HH:MM:SS"
+//        cout << "Enter START and STOP time in HH:MM:SS "
 //            "format - space separated: ";
 //        // directly into the appropriate members of two MyTime structures
 //        cin >> start.hours >> delim >> start.minutes >> delim >> start.seconds
