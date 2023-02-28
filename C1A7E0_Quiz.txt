@@ -6,9 +6,9 @@ C1 168566 Raymond L. Mitchell
 C1A7E0_Quiz.txt
 
 Assignment #7 quiz
-1.
-2.
-3.
-4.
-5.
-6.
+1.D
+2.D
+3.B
+4.D
+5.E
+6.A
