@@ -23,8 +23,9 @@ class SavingsAccount
     {
     public:
         void GetInitialValues();
-        inline void DisplayValues() const;
-        inline const double CalculatePenalty()
+        void DisplayValues();
+
+        const double CalculatePenalty()
         {
             return closurePenaltyPercent * balance;
         }
@@ -35,14 +36,14 @@ class SavingsAccount
         double balance, closurePenaltyPercent;
     };
 
-inline void SavingsAccount::GetInitialValues() 
-    {
-        
-    }
+inline void SavingsAccount::DisplayValues()
+{
+    cout << "Account type: " << type << "\n"
+        << "Owner name: " << ownerName << "\n"
+        << "ID number: " << IDnbr << "\n"
+        << "Account balance: " << balance << "\n"
+        << "Account closure penalty percent: " << closurePenaltyPercent << "\n";
+}
 
-inline const void DisplayValues()
-    {
-        
-    }
 
 #endif C1A8E1_SAVINGSACCOUNT_H // C1A8E1_SAVINGSACCOUNT_H
