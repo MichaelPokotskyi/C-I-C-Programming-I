@@ -21,7 +21,7 @@ int main()
     SavingsAccount account;
     account.GetInitialValues();
     account.DisplayValues();
-    account.CalculatePenalty();
+    cout << "Account closure penalty: " << account.CalculatePenalty();
 
     return 0;
 }

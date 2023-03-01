@@ -35,15 +35,12 @@ class SavingsAccount
         long IDnbr;
         double balance, closurePenaltyPercent;
     };
-
 inline void SavingsAccount::DisplayValues()
 {
     cout << "Account type: " << type << "\n"
         << "Owner name: " << ownerName << "\n"
         << "ID number: " << IDnbr << "\n"
-        << "Account balance: " << balance << "\n"
-        << "Account closure penalty percent: " << closurePenaltyPercent << "\n";
+        << "Account balance: " << balance << "\n";
+        //<< "Account closure penalty percent: " << closurePenaltyPercent << "\n";
 }
-
-
 #endif C1A8E1_SAVINGSACCOUNT_H // C1A8E1_SAVINGSACCOUNT_H
