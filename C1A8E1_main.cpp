@@ -9,11 +9,11 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #8 C1A8E1 (C++)
-//
+// Testing SavingsAccoint class and it's functions by 
+// calling all of them as requested.
 
 #include <iostream>
 #include "C1A8E1_SavingsAccount.h"
-
 using namespace std;
 
 int main()
@@ -21,7 +21,7 @@ int main()
     SavingsAccount account;
     account.GetInitialValues();
     account.DisplayValues();
+    // CalculatePenalty function returns double to output
     cout << "Account closure penalty: " << account.CalculatePenalty() << "\n";
-
     return 0;
 }

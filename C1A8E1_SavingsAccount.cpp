@@ -9,7 +9,7 @@
 // Visual C++ 2022, ISO C++ 17
 //
 // Assignment #8 C1A8E1 (C++)
-//
+// Implementation of GetInitialValues function.
 
 #include <iostream>
 #include "C1A8E1_SavingsAccount.h"
@@ -21,7 +21,9 @@ void SavingsAccount::GetInitialValues()
     cout << "Account type: ";
     cin >> this->type;
     cout << "Owner name: ";
-    cin >> this->ownerName;
+    // newline character discard
+    cin.ignore();
+    getline(cin, this->ownerName);
     cout << "ID number: ";
     cin >> this->IDnbr;
     cout << "Account balance: ";
