@@ -16,7 +16,7 @@
 
 using namespace std;
 
-void SavingsAccount::GetInitialValues() 
+void SavingsAccount::GetInitialValues()
 {
     cout << "Account type: ";
     cin >> this->type;
@@ -28,4 +28,5 @@ void SavingsAccount::GetInitialValues()
     cin >> this->balance;
     cout << "Account closure penalty percent: ";
     cin >> this->closurePenaltyPercent;
+    cout << "\n";
 }

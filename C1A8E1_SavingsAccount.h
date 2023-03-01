@@ -27,7 +27,7 @@ class SavingsAccount
 
         const double CalculatePenalty()
         {
-            return closurePenaltyPercent * balance;
+            return .01*(closurePenaltyPercent * balance);
         }
     private:
         int type;
