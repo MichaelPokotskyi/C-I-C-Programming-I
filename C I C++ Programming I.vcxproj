@@ -170,6 +170,9 @@
     <ClCompile Include="C1A7E1_DetermineElapsedTime.cpp" />
     <ClCompile Include="C1A7E1_main.cpp" />
     <ClCompile Include="C1A7E2_main.c" />
+    <ClCompile Include="C1A8E1_main.cpp" />
+    <ClCompile Include="C1A8E1_SavingsAccount.cpp" />
+    <ClCompile Include="C1A8E2_main.cpp" />
     <ClCompile Include="__TEST_UNIT.cpp" />
     <ClCompile Include="__TEST_UNIT_1.cpp" />
   </ItemGroup>
@@ -181,6 +184,7 @@
     <Text Include="C1A5E0_Quiz.txt" />
     <Text Include="C1A6E0_Quiz.txt" />
     <Text Include="C1A7E0_Quiz.txt" />
+    <Text Include="C1A8E0_Quiz.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C1A4E1_ComputeMinimum.c">
@@ -191,6 +195,7 @@
   <ItemGroup>
     <ClInclude Include="C1A4E4_MaxOf.h" />
     <ClInclude Include="C1A7E1_MyTime.h" />
+    <ClInclude Include="C1A8E1_SavingsAccount.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
