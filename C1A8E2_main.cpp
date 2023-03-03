@@ -55,7 +55,13 @@ int main(int argc, char* argv[])
     //while(EOF)
     {
         char fileBuf[FILE_BUF_LENGTH];
-        inFile.getline(fileBuf, FILE_BUF_LENGTH), cout << fileBuf << "\n";
+        inFile.getline(fileBuf, FILE_BUF_LENGTH, '\n'), cout << fileBuf << "\n";
+
+        /*for (char* cp1 = fileBuf; char* cp2 = strstr(cp1, fileBuf);)
+        {
+            outFile.write(cp1, cp2 - cp1);
+        }*/
+
         //inFile.read(fileBuf, sizeof(fileBuf));
         streamsize bytesRead = inFile.gcount();
         if (bytesRead == 0)
