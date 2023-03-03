@@ -27,14 +27,14 @@ const int FILE_BUF_LENGTH = 8192;
 int main(int argc, char* argv[])
 {
     char delay;
-    // testing correct number of arguments
+    // Test correct number of arguments.
     if (argc != CLINE_ARG_NUM)
     {
         cerr << "Command line argument failed, expected ", CLINE_ARG_NUM, " args.\n";
         exit(EXIT_FAILURE);
     }
 
-    // Open the input file.  If it fails, terminate program with a failure code.
+    // Open and test the input file. 
     ifstream inFile(argv[INPUT_FILE], ios_base::binary);
     if (!inFile.is_open())
     {
@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
         exit(EXIT_FAILURE);
     }
 
-    // Open the output file.  If it fails, terminate program with a failure code.
+    // Open and test the output file.
     ofstream outFile(argv[OUTPUT_FILE], ios_base::binary | ios_base::trunc);
     if (!outFile.is_open())
     {
