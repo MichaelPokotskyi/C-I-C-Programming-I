@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
     // testing correct number of arguments
     if (argc != CLINE_ARG_NUM)
     {
-        cerr << "Command line argument failed, expected ", argc, " args.\n";
+        cerr << "Command line argument failed, expected ", CLINE_ARG_NUM, " args.\n";
         exit(EXIT_FAILURE);
     }
 
