@@ -57,10 +57,10 @@ int main(int argc, char* argv[])
         char fileBuf[FILE_BUF_LENGTH];
         inFile.getline(fileBuf, FILE_BUF_LENGTH, '\n'), cout << fileBuf << "\n";
 
-        /*for (char* cp1 = fileBuf; char* cp2 = strstr(cp1, fileBuf);)
+        for (char* cp1 = argv[SQ_REPLACE_TO]; char* cp2 = strstr(cp1, argv[SQ_SEARCH_FOR]);)
         {
             outFile.write(cp1, cp2 - cp1);
-        }*/
+        }
 
         //inFile.read(fileBuf, sizeof(fileBuf));
         streamsize bytesRead = inFile.gcount();
