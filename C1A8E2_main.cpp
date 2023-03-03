@@ -14,6 +14,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <string>
 
 using namespace std;
 
@@ -30,7 +31,8 @@ int main(int argc, char* argv[])
     // Test correct number of arguments.
     if (argc != CLINE_ARG_NUM)
     {
-        cerr << "Command line argument failed, expected ", CLINE_ARG_NUM, " args.\n";
+        cerr << "Command line argument failed, expected " << 
+            CLINE_ARG_NUM << " args.\n";
         exit(EXIT_FAILURE);
     }
 
@@ -51,20 +53,25 @@ int main(int argc, char* argv[])
     }
     for (;;) 
     {
-        char fileBuf[FILE_BUF_LENGTH], *cp;
-        inFile.read(fileBuf, sizeof(fileBuf));
+        char fileBuf[FILE_BUF_LENGTH];
+        inFile.getline(fileBuf, FILE_BUF_LENGTH), cout << fileBuf << "\n";
+
+        
+
+        //inFile.read(fileBuf, sizeof(fileBuf));
         streamsize bytesRead = inFile.gcount();
         if (bytesRead == 0) 
         {
             break;
         }
-        cp = strstr(fileBuf, argv[3]);
+        /*cp = strstr(fileBuf, argv[3]);
         if (cp != NULL) 
         {
             strncpy(cp, argv[4], sizeof(argv[4]));
         }
-        outFile.write(fileBuf, bytesRead);
+        outFile.write(fileBuf, bytesRead);*/
     }
+    cin >> delay;
     inFile.close();
     outFile.close();
     return 0;
