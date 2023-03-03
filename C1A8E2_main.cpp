@@ -51,16 +51,14 @@ int main(int argc, char* argv[])
         cerr << "Open failed: " << argv[OUTPUT_FILE] << "\n";
         exit(EXIT_FAILURE);
     }
-    for (;;) 
+    for (;;)
+    //while(EOF)
     {
         char fileBuf[FILE_BUF_LENGTH];
         inFile.getline(fileBuf, FILE_BUF_LENGTH), cout << fileBuf << "\n";
-
-        
-
         //inFile.read(fileBuf, sizeof(fileBuf));
         streamsize bytesRead = inFile.gcount();
-        if (bytesRead == 0) 
+        if (bytesRead == 0)
         {
             break;
         }
