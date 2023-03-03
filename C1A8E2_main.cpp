@@ -14,6 +14,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+
 using namespace std;
 
 const int INPUT_FILE = 1;
@@ -29,8 +30,7 @@ int main(int argc, char* argv[])
     // testing correct number of arguments
     if (argc != CLINE_ARG_NUM)
     {
-        fprintf(stderr, "Wrong commands arguments, program exit!\n");
-        //cin >> delay;
+        cerr << "Command line argument failed, expected ", argc, " args.\n";
         exit(EXIT_FAILURE);
     }
 
@@ -39,7 +39,6 @@ int main(int argc, char* argv[])
     if (!inFile.is_open())
     {
         cerr << "Open failed: " << argv[INPUT_FILE] << "\n";
-        //cin >> delay;
         exit(EXIT_FAILURE);
     }
 
@@ -48,26 +47,25 @@ int main(int argc, char* argv[])
     if (!outFile.is_open())
     {
         cerr << "Open failed: " << argv[OUTPUT_FILE] << "\n";
-        //cin >> delay;
         exit(EXIT_FAILURE);
     }
-
     for (;;) 
     {
-        char fileBuf[FILE_BUF_LENGTH];
+        char fileBuf[FILE_BUF_LENGTH], *cp;
         inFile.read(fileBuf, sizeof(fileBuf));
         streamsize bytesRead = inFile.gcount();
         if (bytesRead == 0) 
         {
             break;
         }
+        cp = strstr(fileBuf, argv[3]);
+        if (cp != NULL) 
+        {
+            strncpy(cp, argv[4], sizeof(argv[4]));
+        }
         outFile.write(fileBuf, bytesRead);
     }
-
     inFile.close();
     outFile.close();
-
-    //cin >> delay;
-
     return 0;
 }
