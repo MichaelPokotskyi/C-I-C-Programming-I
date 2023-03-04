@@ -2,6 +2,23 @@
 //#include <stdlib.h>
 //#include <string.h>
 
+///* strstr example */
+//#include <iostream>
+//using namespace std;
+//int main()
+//{
+//    char str[] = "This is a simple string simple YYY";
+//    char* pch;
+//    cout << str << "\n";
+//    while (*str != 'Y') {
+//        pch = strstr(str, "simple");
+//        if (pch != NULL)
+//            strncpy(pch, "sample", 6);
+//    }
+//    cout << str << "\n";
+//    return 0;
+//}
+
 
 //int main(void)
 //{
