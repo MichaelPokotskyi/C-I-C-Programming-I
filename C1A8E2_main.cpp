@@ -49,12 +49,13 @@ int main(int argc, char *argv[])
     char fileBuf[FILE_BUF_LENGTH];
     while (inFile.getline(fileBuf, sizeof(fileBuf), EOF))
     {
-        for (char *cp1 = fileBuf; char *cp2 = strstr(cp1, argv[SQ_SEARCH_FOR]);)
+        for (char *cp1 = fileBuf; 
+            char *cp2 = strstr(cp1, argv[SQ_SEARCH_FOR]);)
         {
-            // data before replace match occurred writes into file 
+            // data before replacment found writes into file 
             // without characters combination needs to be replaced
             outFile.write(cp1, cp2 - cp1);
-            // whole replacement argument writes to file
+            // whole replacement argument writes to output stream
             outFile << argv[SQ_REPLACE_TO];
             cp1 = cp2 + strlen(argv[SQ_SEARCH_FOR]);
         }
