@@ -20,10 +20,6 @@
 //
 //int main()
 //{
-//    Savings savings;
-//    cout << "Total account value is "
-//        << savings.total() << "\n"
-//        "Interest = " << savings.interest;
 //    return 0;
 //}
 
@@ -48,20 +44,11 @@
 
 //int main(void)
 //{
-//    //const char* p[] = { "the butcher", "the baker", "the candlestick maker" };
-//    //printf("%s %s %s", &p[0][4], &*(p+1)[1], &p[2][10]);
-//    //printf("%s %s %s", &p[2][4], &*((*(p+2))+0), &p[2][10]);
-//    //printf("%s %s %s", &*(p + 0)[4], &p[1][0], &p[2][10]);
-//    //printf( "%s %s %s", &p[0][4], *p[1]+0, &(*(p+2)[10]) );
-//    //printf("%s %s %s", &p[0][4], p[1]+0, &(*(p + 2))[10] );
-//
-//
-// /*   long* p = (long*)malloc(3);
-//    p += 3;
-//    free(p);
-//
-//
-//    return 0;*/
+//    int xyz;
+//    scanf("%x", &xyz);
+//    ungetc('A', stdin);
+//    scanf("%x", &xyz);
+//    printf("%x", xyz);
 //}
 
 //

@@ -39,9 +39,6 @@
     <ClCompile Include="C1A3E3_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="__TEST_UNIT.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="__TEST_UNIT_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -133,6 +130,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C1A8E2_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="__TEST_UNIT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
