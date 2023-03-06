@@ -2,30 +2,28 @@
 //#include <stdlib.h>
 //#include <string.h>
 
-/* strstr example */
+///* strstr example */
 //#include <iostream>
 //#include <fstream>
 //#include <cstdlib>
-//const int FILE_BUF_LENGTH = 8192;
 //using namespace std;
+//
+//struct Savings {
+//    double principal, interest;
+//public:
+//    double total()
+//    {
+//        return(principal + interest);
+//    }
+//};
+//
+//
 //int main()
 //{
-//    char filename[] = "Test File1.txt";
-//
-//    //Open and test the input file.
-//    ifstream inFile(filename, ios_base::binary);
-//    if (!inFile.is_open())
-//    {
-//        cerr << "Open failed: " << filename << "\n";
-//        exit(EXIT_FAILURE);
-//    }
-//
-//    char fileBuf[FILE_BUF_LENGTH];
-//    while (inFile.getline(fileBuf, sizeof(fileBuf), EOF)) 
-//    {
-//        cout << fileBuf << "\n";
-//    }
-//
+//    Savings savings;
+//    cout << "Total account value is "
+//        << savings.total() << "\n"
+//        "Interest = " << savings.interest;
 //    return 0;
 //}
 
